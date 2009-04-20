@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 33
+/svn/jacknero/!svn/ver/6/src/ruby
+END
+recoomender.sql
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/jacknero/!svn/ver/6/src/ruby/recoomender.sql
+END
+bench.rb
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/jacknero/!svn/ver/6/src/ruby/bench.rb
+END
+test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/jacknero/!svn/ver/6/src/ruby/test.rb
+END
+.recoomender.sql.swp
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/jacknero/!svn/ver/6/src/ruby/.recoomender.sql.swp
+END
+engine.rb
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/jacknero/!svn/ver/21/src/ruby/engine.rb
+END
+mysql.rb
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/jacknero/!svn/ver/6/src/ruby/mysql.rb
+END
+activerecord.rb
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/jacknero/!svn/ver/6/src/ruby/activerecord.rb
+END

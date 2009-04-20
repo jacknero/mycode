@@ -1,0 +1,556 @@
+# ã“ã® viminfo ãƒ•ã‚¡ã‚¤ãƒ«ã¯ Vim 7.1 ã«ã‚ˆã£ã¦ç”Ÿæˆã•ã‚Œã¾ã—ãŸ.
+# å¤‰æ›´ã™ã‚‹éš›ã«ã¯ååˆ†æ³¨æ„ã—ã¦ãã ã•ã„!
+
+# ã“ã®ãƒ•ã‚¡ã‚¤ãƒ«ãŒæ›¸ã‹ã‚ŒãŸæ™‚ã® 'encoding' ã®å€¤
+*encoding=utf-8
+
+
+# hlsearch on (H) or off (h):
+~h
+# æœ€å¾Œã® æ¤œç´¢ãƒ‘ã‚¿ãƒ¼ãƒ³:
+~MSle0~/syntax
+
+# æœ€å¾Œã«ç½®æ›ã•ã‚ŒãŸæ–‡å­—åˆ—:
+$
+
+# ã‚³ãƒãƒ³ãƒ‰ãƒ©ã‚¤ãƒ³ é …ç›®ã®å±¥æ­´ (æ–°ã—ã„ã‚‚ã®ã‹ã‚‰å¤ã„ã‚‚ã®ã¸):
+:wq
+:w
+:q
+:!./Cstruct1
+:q!
+:!gcc Cstruct.cpp
+:!ls
+:e numeric_diamonds1.rb
+:w numeric_diamonds1.rb
+:!ruby numeric_diamonds.rb
+:qall
+:qa33
+:sp 
+:sp
+:sq
+:b .vimrc
+:!vim .viminfo
+:sa
+:4563
+<! # & * < = > @ AutoComplPopDisable AutoComplPopEnable AutoComplPopLock AutoComplPopUnlock CMiniBufExplorer DoMatchParen Explore GLVS GetLatestVimScripts GetScripts Hexplore LUArgs LUBufs LUPath LUTags LUWalk LookupFile MBEbn MBEbp MiniBufExplorer MkVimball Ncopy NetUserPass NetrwSettings Nexplore Next NoMatchParen Nread Nsource Nwrite Pexplore Print Project Rails Refe RmVimball Sexplore TMiniBufExplorer TOhtml Texplore UMiniBufExplorer UseVimball VCSAdd VCSAnnotate VCSBlame VCSCommandDisableBufferSetup VCSCommandEnableBufferSetup VCSCommit VCSDelete VCSDiff VCSGotoOriginal VCSInfo VCSLock VCSLog VCSReload VCSRemove VCSRevert VCSReview VCSStatus VCSUnlock VCSUpdate VCSVimDiff Vexplore VimballList X YRClear YRDeleteRange YRGetElem YRGetMultiple YRMapsCreate YRMapsDelete YRPaste YRPop YRPush YRReplace YRSearch YRShow YRToggle YRYankCount YRYankRange abbreviate abclear aboveleft all amenu anoremenu append argadd argdelete argdo argedit argglobal arglocal args argument ascii augroup aunmenu autocmd bNext badd ball bdelete behave belowright bfirst blast bmodified bnext botright bprevious break breakadd breakdel breaklist brewind browse bufdo buffer buffers bunload bwipeout cNext cNfile cabbrev cabclear caddbuffer caddexpr caddfile call catch cbuffer cc cclose cd center cexpr cfile cfirst cgetbuffer cgetexpr cgetfile change changes chdir checkpath checktime clast clist close cmap cmapclear cmenu cnewer cnext cnfile cnoreabbrev cnoremap cnoremenu colder colorscheme comclear command compiler confirm continue copen copy cpfile cprevious cquit crewind cscope cstag cunabbrev cunmap cunmenu cwindow debug debuggreedy delcommand delete delfunction delmarks diffget diffoff diffpatch diffput diffsplit diffthis diffupdate digraphs display djump dlist doautoall doautocmd drop dsearch dsplit earlier echo echoerr echohl echomsg echon edit else elseif emenu endfor endfunction endif endtry endwhile enew ex execute exit exusage file files filetype finally find finish first fixdel fold foldclose folddoclosed folddoopen foldopen for function global goto grep grepadd gui gvim hardcopy help helpfind helpgrep helptags hide highlight history iabbrev iabclear if ijump ilist imap imapclear imenu inoreabbrev inoremap inoremenu insert intro isearch isplit iunabbrev iunmap iunmenu join jumps k keepalt keepjumps keepmarks lNext lNfile laddbuffer laddexpr laddfile language last later lbuffer lcd lchdir lclose lcscope left leftabove let lexpr lfile lfirst lgetbuffer lgetexpr lgetfile lgrep lgrepadd lhelpgrep list ll llast llist lmake lmap lmapclear lnewer lnext lnfile lnoremap loadkeymap loadview lockmarks lockvar lolder lopen lpfile lprevious lrewind ls ltag lunmap lvimgrep lvimgrepadd lwindow make map mapclear mark marks match menu menutranslate messages mkexrc mksession mkspell mkview mkvimrc mode move mzfile mzscheme nbkey new next nmap nmapclear nmenu nnoremap nnoremenu nohlsearch noreabbrev noremap noremenu normal number nunmap nunmenu omap omapclear omenu only onoremap onoremenu open options ounmap ounmenu pclose pedit perl perldo pop popup ppop preserve previous print profdel profile promptfind promptrepl psearch ptNext ptag ptfirst ptjump ptlast ptnext ptprevious ptrewind ptselect put pwd pyfile python qall quit quitall read recover redir redo redraw redrawstatus registers resize retab return rewind right rightbelow ruby rubydo rubyfile runtime rviminfo sNext sall sandbox sargument saveas sbNext sball sbfirst sblast sbmodified sbnext sbprevious sbrewind sbuffer scriptencoding scriptnames scscope set setfiletype setglobal setlocal sfind sfirst shell sign silent simalt slast sleep smagic smap smapclear smenu snext sniff snomagic snoremap snoremenu sort source spelldump spellgood spellinfo spellrepall spellundo spellwrong split sprevious srewind stag startgreplace startinsert startreplace stjump stop stopinsert stselect substitute sunhide sunmap sunmenu suspend sview swapname syncbind syntax t tNext tab tabNext tabclose tabdo tabedit tabfind tabfirst tablast tabmove tabnew tabnext tabonly tabprevious tabrewind tabs tag tags tcl tcldo tclfile tearoff tfirst throw tjump tlast tmenu tnext topleft tprevious trewind try tselect tunmenu unabbreviate undo undojoin undolist unhide unlet unlockvar unmap unmenu update verbose version vertical vglobal view vimgrep vimgrepadd visual viusage vmap vmapclear vmenu vnew vnoremap vnoremenu vsplit vunmap vunmenu wNext wall while wincmd windo winpos winsize wnext wprevious wq wqall write wsverb wviminfo xall xit xmap xmapclear xmenu xnoremap xnoremenu xunmap xunmenu yank z ~
+:;q
+
+# æ¤œç´¢æ–‡å­—åˆ— é …ç›®ã®å±¥æ­´ (æ–°ã—ã„ã‚‚ã®ã‹ã‚‰å¤ã„ã‚‚ã®ã¸):
+?/syntax
+?/tabstop
+? ^\d\{3}\/
+?/wildmode
+?/complete
+?/share
+?/exten
+?/extended
+?/shareeeee
+?/vi
+?/vim
+?/alt
+?/alias
+
+# å¼ é …ç›®ã®å±¥æ­´ (æ–°ã—ã„ã‚‚ã®ã‹ã‚‰å¤ã„ã‚‚ã®ã¸):
+
+# å…¥åŠ›è¡Œ é …ç›®ã®å±¥æ­´ (æ–°ã—ã„ã‚‚ã®ã‹ã‚‰å¤ã„ã‚‚ã®ã¸):
+
+# å…¥åŠ›è¡Œ é …ç›®ã®å±¥æ­´ (æ–°ã—ã„ã‚‚ã®ã‹ã‚‰å¤ã„ã‚‚ã®ã¸):
+
+# ãƒ¬ã‚¸ã‚¹ã‚¿:
+"0	LINE	0
+	  first_num+=3
+"1	LINE	0
+	CInt::CInt(int num){m_num=num;}
+"2	LINE	0
+	  d.Disp();
+"3	LINE	0
+	  puts s
+"4	LINE	0
+	  first_num+=3
+"5	LINE	0
+	}
+"6	LINE	0
+	  puts s
+"7	LINE	0
+	  first_num+=3
+"8	LINE	0
+	  
+"9	LINE	0
+	  end
+"k	CHAR	0
+	2274
+<kkkkkkjjjjjjjjjjjjjjjjjjjkkjjjjjjjjjjjjjjjjjjjjjoputs €kb€kb€kb€kb€kb€kb€kb€kb€kbsi€kbnumber=3puts€kb€kb€kb€kbif€kb€kbputs€kb€kb€kb€kbputs " " if€kb€kbif €kb€kb€kb€kb*(num-1) €kb puts "€kb€kb€kb€kb€kb€kb€kb€ku€kd€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kl€kr+ 1:€kb:w,ea.to_s€kb€kb:w,,ekjoputs " "*(number-2)kj oklllllllllllllllllllllllllllllllllla + 2.to_skjhhhhhxi1+3)€kb€kbnumber)hhhhhhhhi(jklllllllllllllllllllllll,e:w,e,,ekj,ekj a + " ",ea + (1+1).to_s:w,ekjhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhkjkkkjjjjjjjjkkkkkkkkjjjjjjjjjjjjjjjjjjjkkkkkkjjjjjjjjjjjjkkkkkkjjjjjjjjjjjjjjjkkkkkkkjkjjjjjjjjjjjjjjjjjkkkkkkkjjjjkjkjjjjjjjjjjjjjjjjjjjjkjjjjjjjjkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkoi =€kb€kb=1kjjlllllllllllllllllllllhhhhhhxiijcwi+1kkjjkllllllllhhhhhxiijlllxiillllllllllllllllllllllllllhhxxxiikjkoi++jlllllllllllllllllllhhhxxllllllllllllhhhhhhhllllhllllli-1llllllllllllllllll:w,ehhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhlllllllllll,eklhxxa=i+1€kb€kb€kb€kb+=1€k1:q:w,ekkkkkkjjjjjkkkkkkkkjjjjjjjjjjjjjjjjjjjjjkkkkkjjjjjjjkkkkkkkkkkkkjjjjjjjkkkjddkkkkkkkkkkkkkkkkkkkddddddddddddddd:w,ejjjjjjkoi+=1oputs " " €kb*(number-1€kbi) + (i+number-1).to_s + " " + (i).to_s:w:€kb,ehhhhhhhhhhhhhhhhhhhhkjllllllllllllllllhhhhhhhhhhhhhhhllllllllllllllllllllllllllljkkkjjkkjjjhhhhhhhhhhhhhhhhhhhhkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjkkjjjjjjkkkhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhlld&$jjjkkkkojllllllllllllllllllllllllhhd$a(num€kb€kb€kb€kbuukjlllllllllllllllllllllllllllllllllljkhhhhhjki€kbnumber-1€kb€kb€kb€kb€kb€kb€kb€kb€kb€kbkii€kbnun€kbm=i+number-1jlllllllllllllllhhhhhhdi(xhxinum€kbllllllllllllllwblhxxi+ num-2kkkkkonum-€kb€kb€kb€kbnum_1=3-1jjjjkkkkkjhhxinumberjjjjjkjlllllllllllllllllllllllllllllllllhxinum_1I€kbI€kb)h€kbjhkllllllllllllllllllllllllllllllllllllli(:wkjjjjkkkjkj,,ejkkkjjjkk€ku€ku€ku€ku€ku€ku€kd€ku€ku€ku€kd€kd€kd€kd€ku€kuoi€kb1€kb1..3.times(€kb dojjjjjjkkjjjkkjjkkkkjjjkkkjjjkkkkkk hxxa(€kb{|num}kjlxa|jkhhhdwixxiijddjddddddduuuuuddjddkoe€kb}jkkkjjkkkjjjkkkjjjkkjkjkjjkkkjjjjkkkjxxxxis = oputs s:w,eq
+""-	CHAR	0
+	defaultproxy.whatever.com
+
+# ãƒ•ã‚¡ã‚¤ãƒ«ãƒãƒ¼ã‚¯:
+'0  3  0  ~/jacknero/svn-commit.tmp
+'1  1  11  ~/mysvn/svn-commit.tmp
+'2  68  32  ~/.subversion/servers
+'3  19  0  ~/src/c++/Cstruct1.cpp
+'4  27  10  ~/src/c++/Cstruct.cpp
+'5  22  20  ~/src/c++/Cstruct1.cpp
+'6  7  2  ~/src/c++/Cstruct.cpp
+'7  1  0  ~/src/code_golf/numeric_diamonds.rb
+'8  6  1  ~/src/code_golf/numeric_diamonds.rb
+'9  252  17  ~/.vimrc
+
+# ã‚¸ãƒ£ãƒ³ãƒ—ãƒªã‚¹ãƒˆ (æ–°ã—ã„ã‚‚ã®ãŒå…ˆ):
+-'  3  0  ~/jacknero/svn-commit.tmp
+-'  1  0  ~/jacknero/svn-commit.tmp
+-'  1  11  ~/mysvn/svn-commit.tmp
+-'  68  32  ~/.subversion/servers
+-'  1  0  ~/.subversion/servers
+-'  19  0  ~/src/c++/Cstruct1.cpp
+-'  4  6  ~/src/c++/Cstruct1.cpp
+-'  33  0  ~/src/c++/Cstruct1.cpp
+-'  22  0  ~/src/c++/Cstruct1.cpp
+-'  27  10  ~/src/c++/Cstruct.cpp
+-'  6  37  ~/src/c++/Cstruct1.cpp
+-'  7  2  ~/src/c++/Cstruct.cpp
+-'  9  5  ~/src/c++/Cstruct.cpp
+-'  8  0  ~/src/c++/Cstruct.cpp
+-'  1  0  ~/src/c++/Cstruct.cpp
+-'  1  0  ~/src/code_golf/numeric_diamonds.rb
+-'  1  23  ~/src/code_golf/-MiniBufExplorer-
+-'  2  0  ~/src/code_golf/-MiniBufExplorer-
+-'  21  0  ~/src/code_golf/numeric_diamonds1.rb
+-'  12  0  ~/src/code_golf/numeric_diamonds.rb
+-'  6  1  ~/src/code_golf/numeric_diamonds.rb
+-'  1  0  ~/src/code_golf/numeric_diamonds1.rb
+-'  4  18  ~/src/code_golf/numeric_diamonds.rb
+-'  7  2  ~/src/code_golf/numeric_diamonds.rb
+-'  8  0  ~/src/code_golf/numeric_diamonds.rb
+-'  252  17  ~/.vimrc
+-'  249  15  ~/.vimrc
+-'  7  0  ~/.vimrc
+-'  28  0  ~/.vimrc
+-'  244  0  ~/.vimrc
+-'  216  0  ~/.vimrc
+-'  11  7  ~/src/code_golf/numeric_diamonds.rb
+-'  5  10  ~/src/code_golf/numeric_diamonds.rb
+-'  9  0  ~/src/code_golf/numeric_diamonds.rb
+-'  10  0  ~/src/code_golf/numeric_diamonds.rb
+-'  10  0  /vtk/Examples/Tutorial/Step1/Cxx/CMakeLists.txt
+-'  1  0  /vtk/Examples/Tutorial/Step1/Cxx/CMakeLists.txt
+-'  1  6  ~/src/test.rb
+-'  253  0  ~/.vimrc
+-'  243  0  ~/.vimrc
+-'  242  1  ~/.vimrc
+-'  241  1  ~/.vimrc
+-'  198  0  ~/.vimrc
+-'  183  0  ~/.vimrc
+-'  1  0  ~/-MiniBufExplorer-
+-'  2  0  ~/-MiniBufExplorer-
+-'  179  0  ~/.vimrc
+-'  172  0  ~/.vimrc
+-'  1  0  ~/.vimrc
+-'  168  0  ~/.vimrc
+-'  72  0  ~/.vimrc
+-'  12  0  ~/.vimrc
+-'  162  0  ~/.vimrc
+-'  17  0  ~/.vimrc
+-'  254  0  ~/.vimrc
+-'  158  0  ~/.vimrc
+-'  153  0  ~/.vimrc
+-'  95  0  ~/.vimrc
+-'  86  5  ~/.vimrc
+-'  257  0  ~/.vimrc
+-'  78  0  ~/.vimrc
+-'  8  0  ~/.vim
+-'  1  0  ~/.vim
+-'  119  0  ~/.vimrc
+-'  21  0  ~/.vimrc
+-'  151  0  ~/.vimrc
+-'  146  0  ~/.vimrc
+-'  31  0  ~/.vimrc
+-'  140  0  ~/.vimrc
+-'  15  45  ~/.vimrc
+-'  14  6  ~/.vimrc
+-'  18  38  ~/.vimrc
+-'  16  38  ~/.vimrc
+-'  136  0  ~/.vimrc
+-'  128  0  ~/.vimrc
+-'  91  0  ~/.vimrc
+-'  80  0  ~/.vimrc
+-'  42  0  ~/.vimrc
+-'  79  7  ~/.vimrc
+-'  65  86  ~/.vimrc
+-'  33  0  ~/.vim
+-'  10  0  ~/.vimrc
+-'  1  21  ~/.mlterm/key
+-'  1  0  ~/.mlterm/ke
+-'  11  0  ~/.vimrc
+-'  1  0  ~/ãƒ‡ã‚¹ã‚¯ãƒˆãƒƒãƒ—/.vimrc
+-'  252  17  ~/.vimrc
+-'  249  15  ~/.vimrc
+-'  7  0  ~/.vimrc
+-'  28  0  ~/.vimrc
+-'  244  0  ~/.vimrc
+-'  216  0  ~/.vimrc
+-'  10  0  /vtk/Examples/Tutorial/Step1/Cxx/CMakeLists.txt
+-'  1  0  /vtk/Examples/Tutorial/Step1/Cxx/CMakeLists.txt
+-'  1  6  ~/src/test.rb
+-'  253  0  ~/.vimrc
+-'  243  0  ~/.vimrc
+-'  242  1  ~/.vimrc
+-'  241  1  ~/.vimrc
+-'  198  0  ~/.vimrc
+
+# ãƒ•ã‚¡ã‚¤ãƒ«å†…ãƒãƒ¼ã‚¯ã®å±¥æ­´ (æ–°ã—ã„ã‚‚ã®ã‹ã‚‰å¤ã„ã‚‚ã®):
+
+> ~/jacknero/svn-commit.tmp
+	"	3	0
+	^	3	0
+	.	2	4
+	+	2	4
+
+> ~/mysvn/svn-commit.tmp
+	"	1	11
+	^	1	12
+	.	1	11
+	+	1	11
+
+> ~/.subversion/servers
+	"	68	32
+	^	68	33
+	.	68	33
+	+	69	0
+	+	68	0
+	+	69	21
+	+	68	33
+
+> ~/src/c++/Cstruct1.cpp
+	"	19	0
+	^	19	0
+	.	20	0
+	+	6	37
+	+	22	47
+	+	22	20
+	+	10	18
+	+	14	0
+	+	19	30
+	+	28	23
+	+	33	0
+	+	19	0
+	+	20	0
+
+> ~/src/c++/Cstruct.cpp
+	"	27	10
+	^	20	28
+	.	20	27
+	+	34	0
+	+	9	5
+	+	13	5
+	+	3	0
+	+	2	1
+	+	20	27
+
+> ~/src/c++/HelloWorld.cpp
+	"	7	2
+	^	6	33
+	.	6	33
+	+	8	0
+	+	6	23
+	+	5	0
+	+	8	0
+	+	7	8
+	+	6	33
+
+> ~/.vim/hoge.cpp
+	"	6	19
+	^	6	20
+	.	6	20
+	+	24	20
+	+	25	1
+	+	6	20
+
+> ~/.vim/__Tag_List__
+	"	1	0
+	.	1	0
+	+	2	0
+	+	1	0
+
+> ~/.vim/-MiniBufExplorer-
+	"	1	14
+	.	2	0
+	+	2	0
+	+	2	0
+
+> ~/.vim/doc/hoge.cpp
+	"	1	0
+	^	19	0
+	.	20	0
+	+	6	24
+	+	7	1
+	+	20	0
+
+> ~/.vim/doc/hoge
+	"	1	0
+
+> ~/src/code_golf/numeric_diamonds.rb
+	"	1	0
+	^	4	19
+	.	4	18
+	+	1	7
+	+	13	0
+	+	1	2
+	+	1	3
+	+	13	0
+	+	8	28
+	+	10	18
+	+	12	0
+	+	10	55
+	+	8	2
+	+	8	17
+	+	10	19
+	+	8	22
+	+	10	49
+	+	10	2
+	+	10	32
+	+	10	3
+	+	1	0
+	+	1	0
+	+	10	3
+	+	11	55
+	+	10	0
+	+	10	47
+	+	10	13
+	+	10	43
+	+	2	11
+	+	10	39
+	+	5	13
+	+	8	0
+	+	10	0
+	+	8	0
+	+	8	0
+	+	8	0
+	+	8	3
+	+	8	5
+	+	9	0
+	+	8	23
+	+	8	4
+	+	8	0
+	+	8	29
+	+	5	10
+	+	8	17
+	+	8	3
+	+	8	6
+	+	8	0
+	+	8	0
+	+	8	0
+	+	1	0
+	+	8	0
+	+	8	4
+	+	8	4
+	+	8	8
+	+	8	13
+	+	8	13
+	+	8	10
+	+	8	4
+	+	8	2
+	+	8	0
+	+	8	2
+	+	8	2
+	+	8	2
+	+	8	2
+	+	8	1
+	+	8	6
+	+	5	9
+	+	8	0
+	+	8	0
+	+	8	8
+	+	8	31
+	+	3	10
+	+	8	0
+	+	8	0
+	+	8	14
+	+	8	0
+	+	8	0
+	+	8	13
+	+	8	16
+	+	8	0
+	+	8	0
+	+	8	0
+	+	8	0
+	+	8	2
+	+	8	27
+	+	8	26
+	+	8	0
+	+	7	0
+	+	6	2
+	+	4	18
+
+> ~/src/code_golf/numeric_diamonds1.rb
+	"	1	7
+	^	9	36
+	.	9	35
+	+	9	36
+	+	7	0
+	+	9	35
+
+> ~/src/code_golf/-MiniBufExplorer-
+	"	1	23
+	.	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+
+> /usr/share/vim/vim71/doc/help.txt
+	"	1	0
+
+> ~/.vimrc
+	"	252	17
+	^	252	18
+	.	252	17
+	+	1	709
+	+	1	792
+	+	1	806
+	+	1	860
+	+	1	873
+	+	1	947
+	+	1	963
+	+	1	1002
+	+	1	1024
+	+	1	1035
+	+	1	1095
+	+	1	1107
+	+	1	1154
+	+	1	1168
+	+	1	1231
+	+	1	1246
+	+	1	1287
+	+	1	1304
+	+	1	1304
+	+	1	1304
+	+	1	1320
+	+	1	1370
+	+	1	1401
+	+	1	1421
+	+	1	1433
+	+	1	1455
+	+	1	1517
+	+	1	1533
+	+	1	1546
+	+	1	1557
+	+	1	1565
+	+	1	1604
+	+	1	1619
+	+	1	1628
+	+	1	1637
+	+	1	1646
+	+	1	1646
+	+	2	0
+	+	65	58
+	+	65	67
+	+	65	78
+	+	65	87
+	+	66	0
+	+	79	28
+	+	71	0
+	+	72	7
+	+	73	0
+	+	81	0
+	+	91	0
+	+	83	0
+	+	128	0
+	+	129	0
+	+	136	0
+	+	257	0
+	+	137	0
+	+	140	0
+	+	141	0
+	+	146	0
+	+	150	40
+	+	153	0
+	+	153	0
+	+	150	0
+	+	257	0
+	+	256	0
+	+	159	0
+	+	160	0
+	+	158	30
+	+	254	0
+	+	168	0
+	+	162	0
+	+	174	96
+	+	173	0
+	+	170	0
+	+	171	0
+	+	183	0
+	+	182	0
+	+	181	0
+	+	180	0
+	+	179	0
+	+	178	0
+	+	177	18
+	+	178	1
+	+	179	1
+	+	178	1
+	+	179	1
+	+	253	0
+	+	239	0
+	+	240	0
+	+	241	0
+	+	253	0
+	+	253	0
+	+	253	0
+	+	253	0
+	+	183	0
+	+	253	0
+	+	253	0
+	+	169	0
+	+	249	17
+	+	250	11
+	+	252	17
+
+> /vtk/Examples/Tutorial/Step1/Cxx/CMakeLists.txt
+	"	10	0
+
+> ~/src/test.rb
+	"	1	6
+	^	1	5
+	.	1	4
+	+	1	4
+
+> ~/-MiniBufExplorer-
+	"	1	0
+	.	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+
+> ~/.viminfo
+	"	7	0

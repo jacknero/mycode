@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mx:Application 
+xmlns:mx="http://www.adobe.com/2006/mxml" 
+horizontalAlign="center" verticalAlign="center"
+>
+
+<mx:Button id="myButton" label="I'm a button!" />
+</mx:Application>
+

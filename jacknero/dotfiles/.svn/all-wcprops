@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/jacknero/!svn/ver/14/dotfiles
+END
+.bashrc
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/jacknero/!svn/ver/12/dotfiles/.bashrc
+END
+.screenrc
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/jacknero/!svn/ver/12/dotfiles/.screenrc
+END
+.bash_logout
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/jacknero/!svn/ver/12/dotfiles/.bash_logout
+END
+.zshrc
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/jacknero/!svn/ver/12/dotfiles/.zshrc
+END
+.bash_history
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/jacknero/!svn/ver/12/dotfiles/.bash_history
+END
+.vimrc
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/jacknero/!svn/ver/12/dotfiles/.vimrc
+END

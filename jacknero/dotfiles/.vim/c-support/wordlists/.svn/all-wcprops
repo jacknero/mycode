@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/jacknero/!svn/ver/12/dotfiles/.vim/c-support/wordlists
+END
+k+r.list
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/jacknero/!svn/ver/12/dotfiles/.vim/c-support/wordlists/k+r.list
+END
+stl_index.list
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/jacknero/!svn/ver/12/dotfiles/.vim/c-support/wordlists/stl_index.list
+END
+c-c++-keywords.list
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/jacknero/!svn/ver/12/dotfiles/.vim/c-support/wordlists/c-c++-keywords.list
+END

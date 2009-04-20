@@ -1,0 +1,14 @@
+
+gosh> fold
+gosh> #?="(stdin)":4:(cdr lis)
+#?-    (2 3 4 5)
+#?="(stdin)":4:(cdr lis)
+#?-    (3 4 5)
+#?="(stdin)":4:(cdr lis)
+#?-    (4 5)
+#?="(stdin)":4:(cdr lis)
+#?-    (5)
+#?="(stdin)":4:(cdr lis)
+#?-    ()
+15
+gosh> 

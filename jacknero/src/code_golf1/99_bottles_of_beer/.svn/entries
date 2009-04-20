@@ -1,0 +1,52 @@
+8
+
+dir
+19
+http://svn.assembla.com/svn/jacknero/src/code_golf1/99_bottles_of_beer
+http://svn.assembla.com/svn/jacknero
+
+
+
+2008-08-16T05:52:39.571531Z
+6
+jacknero
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+e0e46c49-be69-4f5a-ad62-21024a331aea
+
+beer.rb
+file
+
+
+
+
+2008-11-26T15:25:08.000000Z
+bb40aed47fe919673deb6fb5d6c82721
+2008-08-16T05:52:39.571531Z
+6
+jacknero
+
+beer1.rb
+file
+
+
+
+
+2008-11-26T15:25:08.000000Z
+c593aa708a864d4a5bf3e0bb95bd0c56
+2008-08-16T05:52:39.571531Z
+6
+jacknero
+

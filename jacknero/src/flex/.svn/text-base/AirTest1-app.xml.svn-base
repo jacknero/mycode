@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application xmlns="http://ns.adobe.com/air/application/1.0">
+  <id>AirTest1</id>
+  <version>0.1</version>
+  <filename>AirTest1</filename>
+  <initialWindow>
+    <content>AirTest1.swf</content>
+    <visible>true</visible>
+    <systemChrome>standard</systemChrome>
+    <transparent>false</transparent>
+  </initialWindow>
+</application>
+

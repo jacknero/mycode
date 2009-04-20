@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mx:WindowedApplication xmlns:mx="http://www.adobe.com/2006/mxml">
+<mx:Panel title="Hello Flex!!"
+paddingTop="10" paddingLeft="10"
+paddingRight="10" paddingBottom="10">
+<mx:Label text="rabel"/>
+<mx:TextInput text="text"/>
+<mx:Button label="OK"/>
+</mx:Panel>
+</mx:WindowedApplication>
+

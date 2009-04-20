@@ -1,0 +1,8 @@
+#hardstatus alwayslastline "%w"
+hardstatus alwayslastline "%`%-w%{=b bw}%n %t%{-}%+w"
+#escape Z
+bind s
+startup_message off
+autodetach on
+defscrollback 1024
+defencoding UTF-8

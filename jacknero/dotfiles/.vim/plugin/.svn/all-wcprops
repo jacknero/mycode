@@ -1,0 +1,179 @@
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/jacknero/!svn/ver/14/dotfiles/.vim/plugin
+END
+ColorSchemes.vim
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/jacknero/!svn/ver/12/dotfiles/.vim/plugin/ColorSchemes.vim
+END
+genutils.vim
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/jacknero/!svn/ver/12/dotfiles/.vim/plugin/genutils.vim
+END
+commentout.vim
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/jacknero/!svn/ver/12/dotfiles/.vim/plugin/commentout.vim
+END
+autoend.vim.bk
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/jacknero/!svn/ver/12/dotfiles/.vim/plugin/autoend.vim.bk
+END
+vcscommand.vim
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/jacknero/!svn/ver/13/dotfiles/.vim/plugin/vcscommand.vim
+END
+qbuf.vim
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/jacknero/!svn/ver/12/dotfiles/.vim/plugin/qbuf.vim
+END
+vcsgit.vim
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/jacknero/!svn/ver/13/dotfiles/.vim/plugin/vcsgit.vim
+END
+hello.vim
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/jacknero/!svn/ver/12/dotfiles/.vim/plugin/hello.vim
+END
+gtags.vim
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/jacknero/!svn/ver/12/dotfiles/.vim/plugin/gtags.vim
+END
+bufferlist.vim
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/jacknero/!svn/ver/12/dotfiles/.vim/plugin/bufferlist.vim
+END
+dbext.vim
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/jacknero/!svn/ver/12/dotfiles/.vim/plugin/dbext.vim
+END
+project.vim
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/jacknero/!svn/ver/12/dotfiles/.vim/plugin/project.vim
+END
+taglist.vim
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/jacknero/!svn/ver/12/dotfiles/.vim/plugin/taglist.vim
+END
+vcscvs.vim
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/jacknero/!svn/ver/13/dotfiles/.vim/plugin/vcscvs.vim
+END
+guicolorscheme.vim
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/jacknero/!svn/ver/12/dotfiles/.vim/plugin/guicolorscheme.vim
+END
+ColorSchemeMenuMaker.vim
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/jacknero/!svn/ver/12/dotfiles/.vim/plugin/ColorSchemeMenuMaker.vim
+END
+lookupfile.vim
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/jacknero/!svn/ver/12/dotfiles/.vim/plugin/lookupfile.vim
+END
+rails.vim
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/jacknero/!svn/ver/12/dotfiles/.vim/plugin/rails.vim
+END
+cppcomplete.vim
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/jacknero/!svn/ver/12/dotfiles/.vim/plugin/cppcomplete.vim
+END
+autocomplpop.vim.bk
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/jacknero/!svn/ver/12/dotfiles/.vim/plugin/autocomplpop.vim.bk
+END
+minibufexpl.vim.bak
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/jacknero/!svn/ver/12/dotfiles/.vim/plugin/minibufexpl.vim.bak
+END
+vcssvk.vim
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/jacknero/!svn/ver/13/dotfiles/.vim/plugin/vcssvk.vim
+END
+refe.vim
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/jacknero/!svn/ver/12/dotfiles/.vim/plugin/refe.vim
+END
+surround.vim
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/jacknero/!svn/ver/14/dotfiles/.vim/plugin/surround.vim
+END
+c.vim
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/jacknero/!svn/ver/12/dotfiles/.vim/plugin/c.vim
+END
+autocomplpop.vim
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/jacknero/!svn/ver/12/dotfiles/.vim/plugin/autocomplpop.vim
+END
+vcssvn.vim
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/jacknero/!svn/ver/13/dotfiles/.vim/plugin/vcssvn.vim
+END
+yankring.vim
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/jacknero/!svn/ver/12/dotfiles/.vim/plugin/yankring.vim
+END
+yanktmp.vim
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/jacknero/!svn/ver/12/dotfiles/.vim/plugin/yanktmp.vim
+END

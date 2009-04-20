@@ -1,0 +1,141 @@
+8
+
+dir
+19
+http://svn.assembla.com/svn/jacknero/src/c++
+http://svn.assembla.com/svn/jacknero
+
+
+
+2008-08-02T06:08:50.491789Z
+5
+jacknero
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+e0e46c49-be69-4f5a-ad62-21024a331aea
+
+File
+dir
+
+Cstruct1.o
+file
+
+
+
+
+2008-11-26T15:25:10.000000Z
+dc40377b71ddbfd6116d1672b510295c
+2008-08-02T06:08:50.491789Z
+5
+jacknero
+has-props
+
+Cstruct
+file
+
+
+
+
+2008-11-26T15:25:10.000000Z
+7dced201736cbf3ee3b8db1c07753319
+2008-07-31T09:16:08.723096Z
+3
+jacknero
+has-props
+
+Cstruct.cpp
+file
+
+
+
+
+2008-11-26T15:25:10.000000Z
+b21413ff1e61919a42765f135cc02e6e
+2008-07-31T09:16:08.723096Z
+3
+jacknero
+
+Cstruct1
+file
+
+
+
+
+2008-11-26T15:25:10.000000Z
+b46299bcc88fbcf3edfad5fcacf82640
+2008-07-31T09:16:08.723096Z
+3
+jacknero
+has-props
+
+HelloWorld.o
+file
+
+
+
+
+2008-11-26T15:25:10.000000Z
+62f03cba28a41dc3ef675e087da6a46d
+2008-08-02T06:08:50.491789Z
+5
+jacknero
+has-props
+
+Cstruct1.cpp
+file
+
+
+
+
+2008-11-26T15:25:10.000000Z
+2e311dad56232bbc0e061d7213e6cf79
+2008-07-31T09:16:08.723096Z
+3
+jacknero
+
+Copy
+dir
+
+HelloWorld
+file
+
+
+
+
+2008-11-26T15:25:10.000000Z
+9f709ce671423227fc21d54092ae5c9d
+2008-07-31T09:16:08.723096Z
+3
+jacknero
+has-props
+
+HelloWorld.cpp
+file
+
+
+
+
+2008-11-26T15:25:10.000000Z
+dc864a21e7ee4e6ee10a71d3fbb4fdaa
+2008-07-31T09:16:08.723096Z
+3
+jacknero
+
+deconstructor
+dir
+
+inline
+dir
+

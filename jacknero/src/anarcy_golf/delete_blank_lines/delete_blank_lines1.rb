@@ -1,0 +1,2 @@
+#!ruby -n
+print if/./

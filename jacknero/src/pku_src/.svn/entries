@@ -1,0 +1,856 @@
+8
+
+dir
+19
+http://svn.assembla.com/svn/jacknero/src/pku_src
+http://svn.assembla.com/svn/jacknero
+
+
+
+2008-09-28T13:55:26.486464Z
+16
+jacknero
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+e0e46c49-be69-4f5a-ad62-21024a331aea
+
+2041
+dir
+
+2042
+dir
+
+1151
+dir
+
+1313
+dir
+
+2043
+dir
+
+2044
+dir
+
+2045
+dir
+
+1316
+dir
+
+2046
+dir
+
+1317
+dir
+
+2047
+dir
+
+2048
+dir
+
+1319
+dir
+
+1239
+dir
+
+2680
+dir
+
+2683
+dir
+
+1873
+dir
+
+2684
+dir
+
+2685
+dir
+
+2686
+dir
+
+1957
+dir
+
+2769
+dir
+
+2688
+dir
+
+1080
+dir
+
+1163
+dir
+
+1406
+dir
+
+1407
+dir
+
+1408
+dir
+
+1166
+dir
+
+1409
+dir
+
+1088
+dir
+
+2853
+dir
+
+1410
+dir
+
+2140
+dir
+
+1411
+dir
+
+2141
+dir
+
+1412
+dir
+
+2142
+dir
+
+1251
+dir
+
+1413
+dir
+
+2305
+dir
+
+2143
+dir
+
+1414
+dir
+
+2144
+dir
+
+1415
+dir
+
+3117
+dir
+
+2145
+dir
+
+1092
+dir
+
+1416
+dir
+
+2227
+dir
+
+2146
+dir
+
+1417
+dir
+
+2309
+dir
+
+2147
+dir
+
+1256
+dir
+
+1418
+dir
+
+2067
+dir
+
+1176
+dir
+
+1338
+dir
+
+2149
+dir
+
+2068
+dir
+
+2069
+dir
+
+2782
+dir
+
+1978
+dir
+
+1979
+dir
+
+2070
+dir
+
+1503
+dir
+
+1423
+dir
+
+1504
+dir
+
+1182
+dir
+
+1263
+dir
+
+2155
+dir
+
+1265
+dir
+
+3129
+dir
+
+2079
+dir
+
+1980
+dir
+
+1188
+dir
+
+1269
+dir
+
+1981
+dir
+
+2954
+dir
+
+1983
+dir
+
+2799
+dir
+
+3130
+dir
+
+1350
+dir
+
+2242
+dir
+
+1432
+dir
+
+1434
+dir
+
+2407
+dir
+
+2245
+dir
+
+1273
+dir
+
+2247
+dir
+
+1519
+dir
+
+2249
+dir
+
+1279
+dir
+
+1602
+dir
+
+1444
+dir
+
+1606
+dir
+
+1528
+dir
+
+2260
+dir
+
+2505
+dir
+
+2262
+dir
+
+2509
+dir
+
+1375
+dir
+
+1456
+dir
+
+1458
+dir
+
+1459
+dir
+
+1298
+dir
+
+1379
+dir
+
+2350
+dir
+
+1460
+dir
+
+2190
+dir
+
+1543
+dir
+
+1624
+dir
+
+3406
+dir
+
+3407
+dir
+
+3085
+dir
+
+2356
+dir
+
+3086
+dir
+
+2195
+dir
+
+2196
+dir
+
+1468
+dir
+
+1389
+dir
+
+3410
+dir
+
+2601
+dir
+
+2602
+dir
+
+2521
+dir
+
+2440
+dir
+
+3251
+dir
+
+1471
+dir
+
+3334
+dir
+
+3335
+dir
+
+1473
+dir
+
+2365
+dir
+
+2284
+dir
+
+2366
+dir
+
+1556
+dir
+
+3176
+dir
+
+3096
+dir
+
+2367
+dir
+
+2368
+dir
+
+2369
+dir
+
+1000
+dir
+
+1001
+dir
+
+1002
+dir
+
+1003
+dir
+
+1004
+dir
+
+1005
+dir
+
+1006
+dir
+
+1007
+dir
+
+1008
+dir
+
+1009
+dir
+
+2370
+dir
+
+2371
+dir
+
+1804
+dir
+
+1480
+dir
+
+2453
+dir
+
+2372
+dir
+
+2291
+dir
+
+1481
+dir
+
+2535
+dir
+
+1482
+dir
+
+3507
+dir
+
+3508
+dir
+
+1484
+dir
+
+3347
+dir
+
+2295
+dir
+
+1485
+dir
+
+1486
+dir
+
+1569
+dir
+
+1010
+dir
+
+1011
+dir
+
+1012
+dir
+
+1013
+dir
+
+1014
+dir
+
+1015
+dir
+
+1017
+dir
+
+3511
+dir
+
+1019
+dir
+
+1731
+dir
+
+2623
+dir
+
+1733
+dir
+
+3191
+dir
+
+1654
+dir
+
+3518
+dir
+
+1494
+dir
+
+1658
+dir
+
+2388
+dir
+
+1579
+dir
+
+1021
+dir
+
+1023
+dir
+
+1024
+dir
+
+1106
+dir
+
+1026
+dir
+
+3600
+dir
+
+1027
+dir
+
+1028
+dir
+
+1029
+dir
+
+2632
+dir
+
+2633
+dir
+
+2390
+dir
+
+1904
+dir
+
+2635
+dir
+
+3445
+dir
+
+2636
+dir
+
+2637
+dir
+
+2639
+dir
+
+1586
+dir
+
+1589
+dir
+
+2002
+dir
+
+2003
+dir
+
+1031
+dir
+
+1113
+dir
+
+1032
+dir
+
+1035
+dir
+
+2800
+dir
+
+2008
+dir
+
+2720
+dir
+
+1118
+dir
+
+1037
+dir
+
+2640
+dir
+
+1039
+dir
+
+1590
+dir
+
+1915
+dir
+
+1591
+dir
+
+2726
+dir
+
+1673
+dir
+
+1917
+dir
+
+1674
+dir
+
+1598
+dir
+
+1040
+dir
+
+1041
+dir
+
+1125
+dir
+
+2017
+dir
+
+1207
+dir
+
+1126
+dir
+
+1045
+dir
+
+2018
+dir
+
+1128
+dir
+
+1129
+dir
+
+1922
+dir
+
+1049
+dir
+
+1923
+dir
+
+2491
+dir
+
+2492
+dir
+
+1845
+dir
+
+3384
+dir
+
+2575
+dir
+
+2819
+dir
+
+2739
+dir
+
+1687
+dir
+
+1130
+dir
+
+1131
+dir
+
+1050
+dir
+
+2105
+dir
+
+1133
+dir
+
+1218
+dir
+
+1056
+dir
+
+1057
+dir
+
+1852
+dir
+
+2663
+dir
+
+1936
+dir
+
+1775
+dir
+
+1696
+dir
+
+2030
+dir
+
+2031
+dir
+
+2032
+dir
+
+3007
+dir
+
+1144
+dir
+
+1145
+dir
+
+1065
+dir
+
+1149
+dir
+
+2590
+dir
+
+3481
+dir
+
+2597
+dir
+
+3488
+dir
+
+2599
+dir
+

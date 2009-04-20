@@ -1,0 +1,28 @@
+PROJECT(ImageRegistration)
+INCLUDE_REGULAR_EXPRESSION("^.*$")
+ # Find ITK.
+ FIND_PACKAGE(ITK REQUIRED)
+ IF(ITK_FOUND)
+     INCLUDE(${ITK_USE_FILE})
+     ENDIF(ITK_FOUND)
+
+ FIND_PACKAGE(VTK)
+ IF(VTK_FOUND)
+     INCLUDE(${USE_VTK_FILE})
+     ENDIF(VTK_FOUND)
+
+
+INCLUDE_DIRECTORIES(
+  ${ImageRegistration_SOURCE_DIR}
+  )
+
+IF(NOT BORLAND)
+
+  ADD_EXECUTABLE(ImageRegistration8 itkReadITKImageShowVTK.cxx )
+  TARGET_LINK_LIBRARIES(ImageRegistration8 ITKIO ITKNumerics
+    ITKCommon ITKBasicFilters vtkRendering vtkGraphics vtkHybrid
+    vtkImaging vtkFiltering vtkCommon vtkIO
+    )
+
+ENDIF(NOT BORLAND)
+

@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/jacknero/!svn/ver/12/dotfiles/.vim/autoload
+END
+dbext.vim
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/jacknero/!svn/ver/12/dotfiles/.vim/autoload/dbext.vim
+END
+lookupfile.vim
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/jacknero/!svn/ver/12/dotfiles/.vim/autoload/lookupfile.vim
+END
+genutils.vim
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/jacknero/!svn/ver/12/dotfiles/.vim/autoload/genutils.vim
+END
+rails.vim
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/jacknero/!svn/ver/12/dotfiles/.vim/autoload/rails.vim
+END
+rubycomplete.vim
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/jacknero/!svn/ver/12/dotfiles/.vim/autoload/rubycomplete.vim
+END
+dbext_dbi.vim
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/jacknero/!svn/ver/12/dotfiles/.vim/autoload/dbext_dbi.vim
+END

@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/jacknero/!svn/ver/21/src/gaushe
+END
+test.scm
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/jacknero/!svn/ver/21/src/gaushe/test.scm
+END
+test2.scm
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/jacknero/!svn/ver/21/src/gaushe/test2.scm
+END
+fold.scm
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/jacknero/!svn/ver/21/src/gaushe/fold.scm
+END
+fold1.scm
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/jacknero/!svn/ver/21/src/gaushe/fold1.scm
+END
+gosh_out
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/jacknero/!svn/ver/21/src/gaushe/gosh_out
+END
+hello_world.scm
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/jacknero/!svn/ver/21/src/gaushe/hello_world.scm
+END
+pick-greater.scm
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/jacknero/!svn/ver/21/src/gaushe/pick-greater.scm
+END

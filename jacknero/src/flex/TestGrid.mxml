@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mx:WindowedApplication xmlns:mx="http://www.adobe.com/2006/mxml"
+  layout="absolute">
+
+  <mx:ArrayCollection id="person_data">
+    <mx:Object name="hoge" age="30" email="ichiro@examle.com"/>
+    <mx:Object name="hoge1" age="28" email="hoge2@examle.com"/>
+    <mx:Object name="hoge2" age="25" email="hoge3@examle.com"/>
+    <mx:Object name="hoge3" age="21" email="hoge4@examle.com"/>
+  </mx:ArrayCollection>
+  <!-- DataGrid -->
+  <mx:DataGrid x="30" y="30"
+    dataProvider="{person_data}"/>
+</mx:WindowedApplication>
+

@@ -1,0 +1,11 @@
+i,s,t,A,B,h[2004],r[2000];
+c(int*a,int*b){return*a-*b;}
+main(n){
+    for(;~scanf("%d",h+i);++i)h[i]*=i>3?i%2?4*h[2]:h[1]:1;
+    for(;i--;){
+        for(;B=h[n+=3];A>h[3]|A<0||(r[t++]=B,r[t++]=B-4*A-2))
+            A=h[i]-h[--n]+h[3];
+        for(qsort(r,t,4,c);n=t;s=s<++B?B:s)B-=r[--t]&2;
+    }
+    printf("%d",s);
+}

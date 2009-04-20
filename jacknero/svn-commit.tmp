@@ -1,0 +1,5 @@
+add :cdd
+-- この行以下は無視されます --
+
+A    dotfiles/.cdd
+A    dotfiles/.cdd/cdd

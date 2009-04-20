@@ -1,0 +1,23 @@
+
+ImageRegistration6o.cxx,47
+int main( int argc, char *argv[] )main29,916
+
+Makefile,364
+SHELL = /bin/shSHELL25,692
+CMAKE_COMMAND = /usr/bin/cmakeCMAKE_COMMAND28,733
+RM = /usr/bin/cmake -E remove -fRM31,797
+CMAKE_EDIT_COMMAND = /usr/bin/ccmakeCMAKE_EDIT_COMMAND34,871
+CMAKE_SOURCE_DIR = /home/matsui/itk/SqureDifferentedImageFilterCMAKE_SOURCE_DIR37,966
+CMAKE_BINARY_DIR = /home/matsui/itk/SqureDifferentedImageFilterCMAKE_BINARY_DIR40,1087
+
+original.cxx,733
+class CommandIterationUpdate : public itk::Command CommandIterationUpdate97,3930
+  typedef  CommandIterationUpdate   Self;Self100,3995
+  typedef  itk::Command             Superclass;Superclass101,4038
+  typedef itk::SmartPointer<Self>  Pointer;Pointer102,4087
+  CommandIterationUpdate() {};CommandIterationUpdate105,4168
+  typedef itk::RegularStepGradientDescentOptimizer     OptimizerType;OptimizerType107,4209
+  typedef   const OptimizerType   *    OptimizerPointer;OptimizerPointer108,4280
+  void Execute(itk::Object *caller, const itk::EventObject & event)Execute110,4340
+  void Execute(const itk::Object * object, const itk::EventObject & event)Execute115,4478
+int main( int argc, char *argv[] )main131,4946
