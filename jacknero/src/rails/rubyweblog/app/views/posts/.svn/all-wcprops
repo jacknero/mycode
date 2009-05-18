@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/jacknero/!svn/ver/7/src/rails/rubyweblog/app/views/posts
+END
+edit.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/jacknero/!svn/ver/7/src/rails/rubyweblog/app/views/posts/edit.html.erb
+END
+index.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/jacknero/!svn/ver/7/src/rails/rubyweblog/app/views/posts/index.html.erb
+END
+new.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/jacknero/!svn/ver/7/src/rails/rubyweblog/app/views/posts/new.html.erb
+END
+show.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/jacknero/!svn/ver/7/src/rails/rubyweblog/app/views/posts/show.html.erb
+END
+_comment.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/jacknero/!svn/ver/7/src/rails/rubyweblog/app/views/posts/_comment.html.erb
+END

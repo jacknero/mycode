@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/jacknero/!svn/ver/7/src/rails/rubyweblog/public
+END
+dispatch.cgi
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/jacknero/!svn/ver/7/src/rails/rubyweblog/public/dispatch.cgi
+END
+dispatch.rb
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/jacknero/!svn/ver/7/src/rails/rubyweblog/public/dispatch.rb
+END
+dispatch.fcgi
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/jacknero/!svn/ver/7/src/rails/rubyweblog/public/dispatch.fcgi
+END
+robots.txt
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/jacknero/!svn/ver/7/src/rails/rubyweblog/public/robots.txt
+END
+500.html
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/jacknero/!svn/ver/7/src/rails/rubyweblog/public/500.html
+END
+404.html
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/jacknero/!svn/ver/7/src/rails/rubyweblog/public/404.html
+END
+422.html
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/jacknero/!svn/ver/7/src/rails/rubyweblog/public/422.html
+END
+.cvsignore
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/jacknero/!svn/ver/7/src/rails/rubyweblog/public/.cvsignore
+END
+favicon.ico
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/jacknero/!svn/ver/7/src/rails/rubyweblog/public/favicon.ico
+END

@@ -1,0 +1,34 @@
+8
+
+dir
+19
+http://svn.assembla.com/svn/jacknero/src/rails/rubyweblog/app/views
+http://svn.assembla.com/svn/jacknero
+
+
+
+2008-08-29T17:33:21.398814Z
+7
+jacknero
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+e0e46c49-be69-4f5a-ad62-21024a331aea
+
+layouts
+dir
+
+posts
+dir
+

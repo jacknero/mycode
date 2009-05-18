@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/jacknero/!svn/ver/7/src/rails/rubyweblog/script
+END
+console
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/jacknero/!svn/ver/7/src/rails/rubyweblog/script/console
+END
+server
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/jacknero/!svn/ver/7/src/rails/rubyweblog/script/server
+END
+destroy
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/jacknero/!svn/ver/7/src/rails/rubyweblog/script/destroy
+END
+runner
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/jacknero/!svn/ver/7/src/rails/rubyweblog/script/runner
+END
+about
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/jacknero/!svn/ver/7/src/rails/rubyweblog/script/about
+END
+generate
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/jacknero/!svn/ver/7/src/rails/rubyweblog/script/generate
+END
+plugin
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/jacknero/!svn/ver/7/src/rails/rubyweblog/script/plugin
+END

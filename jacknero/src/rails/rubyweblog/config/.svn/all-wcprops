@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/jacknero/!svn/ver/7/src/rails/rubyweblog/config
+END
+routes.rb
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/jacknero/!svn/ver/7/src/rails/rubyweblog/config/routes.rb
+END
+database.yml
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/jacknero/!svn/ver/7/src/rails/rubyweblog/config/database.yml
+END
+boot.rb
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/jacknero/!svn/ver/7/src/rails/rubyweblog/config/boot.rb
+END
+environment.rb
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/jacknero/!svn/ver/7/src/rails/rubyweblog/config/environment.rb
+END

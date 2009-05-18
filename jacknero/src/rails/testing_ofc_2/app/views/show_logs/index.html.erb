@@ -1,0 +1,12 @@
+<html>
+  <head>
+    <script type="text/javascript" src="/javascripts/swfobject.js"></script>
+  </head>
+  <body>
+<% form_tag(:action => :index) do %>
+<%= date_select("post", "written_on", :start_year => 1995) %>
+<%= submit_tag 'Search' %>
+<%  end %>
+<%= @graph%>
+  </body>
+</html>

@@ -1,0 +1,53 @@
+8
+
+dir
+19
+http://svn.assembla.com/svn/jacknero/src/actionscript
+http://svn.assembla.com/svn/jacknero
+
+
+
+2008-11-19T13:50:24.519955Z
+18
+jacknero
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+e0e46c49-be69-4f5a-ad62-21024a331aea
+
+HelloWorld.swf
+file
+
+
+
+
+2008-11-26T15:25:08.000000Z
+28a0b68e9b040bec519c4001ef031989
+2008-11-19T13:50:24.519955Z
+18
+jacknero
+has-props
+
+HelloWorld.as
+file
+
+
+
+
+2008-11-26T15:25:08.000000Z
+240e301e9034671c0bf923ddef9540fa
+2008-11-19T13:50:24.519955Z
+18
+jacknero
+

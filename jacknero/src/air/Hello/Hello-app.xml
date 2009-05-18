@@ -1,0 +1,10 @@
+<?xml version="1.0"" encoding="utf-8"?>
+<application xmlns="http://ns.adobe.com/air/application/1.1">
+<id>com.kujirahand.examle.Hello</id>
+<filename>Hello</filename>
+<initialWindow>
+  <content>Hello.html</content>
+  <visible>true</visible>
+</initialWindow>
+</application>
+

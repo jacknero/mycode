@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/jacknero/!svn/ver/7/src/rails/rubyweblog/config/initializers
+END
+inflections.rb
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/jacknero/!svn/ver/7/src/rails/rubyweblog/config/initializers/inflections.rb
+END
+mime_types.rb
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/jacknero/!svn/ver/7/src/rails/rubyweblog/config/initializers/mime_types.rb
+END

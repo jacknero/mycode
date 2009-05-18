@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/jacknero/!svn/ver/7/src/rails/rubyweblog/log
+END
+test.log
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/jacknero/!svn/ver/7/src/rails/rubyweblog/log/test.log
+END
+development.log
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/jacknero/!svn/ver/7/src/rails/rubyweblog/log/development.log
+END
+production.log
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/jacknero/!svn/ver/7/src/rails/rubyweblog/log/production.log
+END
+server.log
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/jacknero/!svn/ver/7/src/rails/rubyweblog/log/server.log
+END

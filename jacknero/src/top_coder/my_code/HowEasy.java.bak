@@ -1,0 +1,62 @@
+import java.util.*;
+import java.util.regex.*;
+import java.text.*;
+import java.math.*;
+import java.awt.geom.*;
+
+public class HowEasy
+{
+	public int pointVal(String param0)
+	{
+		int tot = 0, wc = 0;
+		String word;
+		String[] tokens = param0.split(" ");
+		for(int i = 0; i < tokens.length; i++){
+			if(tokens[i].matches("^[a-zA-Z]+(\\.)?$")){
+				word = tokens[i].replace(".","");
+				tot += word.length();
+				wc++;
+			}
+		}
+		int awc = wc > 0 ? tot / wc : 0;
+		return awc < 4 ? 250 : (awc >5 ? 1000 : 500);
+	}
+	
+	
+}
+//Powered by [KawigiEdit] 2.0!
+
+
+// Powered by FileEdit
+// Powered by TZTester 1.01 [25-Feb-2003]
+// Powered by CodeProcessor
+
+
+// Powered by FileEdit
+// Powered by TZTester 1.01 [25-Feb-2003]
+// Powered by CodeProcessor
+
+
+// Powered by FileEdit
+// Powered by TZTester 1.01 [25-Feb-2003]
+// Powered by CodeProcessor
+
+
+// Powered by FileEdit
+// Powered by TZTester 1.01 [25-Feb-2003]
+// Powered by CodeProcessor
+
+
+// Powered by FileEdit
+// Powered by TZTester 1.01 [25-Feb-2003]
+// Powered by CodeProcessor
+
+
+// Powered by FileEdit
+// Powered by TZTester 1.01 [25-Feb-2003]
+// Powered by CodeProcessor
+
+
+// Powered by FileEdit
+// Powered by TZTester 1.01 [25-Feb-2003]
+// Powered by CodeProcessor

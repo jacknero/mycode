@@ -1,0 +1,52 @@
+8
+
+dir
+19
+http://svn.assembla.com/svn/jacknero/src/rails/rubyweblog/test/fixtures
+http://svn.assembla.com/svn/jacknero
+
+
+
+2008-08-29T17:33:21.398814Z
+7
+jacknero
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+e0e46c49-be69-4f5a-ad62-21024a331aea
+
+comments.yml
+file
+
+
+
+
+2008-11-26T15:25:10.000000Z
+49c325bcb18862870db50d73087ae77f
+2008-08-29T17:33:21.398814Z
+7
+jacknero
+
+posts.yml
+file
+
+
+
+
+2008-11-26T15:25:10.000000Z
+d6933833fc5b33a6224736be76fe6e18
+2008-08-29T17:33:21.398814Z
+7
+jacknero
+

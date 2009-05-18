@@ -1,0 +1,47 @@
+<p>
+  <b>Title:</b>
+  <%=h @post.title %>
+</p>
+
+<p>
+  <b>Body:</b>
+  <%=h @post.body %>
+</p>
+
+<%= link_to 'Edit', edit_post_path(@post) %> |
+<%= link_to 'Back', posts_path %>
+<hr>
+
+<h4>Comments</h4>
+<ul id="comments">
+<% @post_comments.each do |comment| %>
+
+  <%= render :partial=>"comment", :object => comment %>
+
+<% end %>
+</ul>
+<% form_remote_tag :url => {:action => 'post_comment'} do %>   
+   <p><label for="comment_comment">Comment</label><br/>
+   <%= text_area 'comment', 'comment' %>
+   <%= image_tag "trash.jpg", :id=>'trash', :onMouseOut=>"empty_trash()"%></p>
+
+   <%= submit_tag "Post" %>
+<%end %>
+
+<%= drop_receiving_element('trash',                             # The id of the receiving element
+  :accept => "comment",                                         # The CSS class of the dropped elememt
+  :with   => "'comment=' + (element.id.split('_').last())",     # The query string parameters
+  :url    => {:action=>:trash_comment},                         # The action to call
+  :onHover => "function() {fill_trash()}",                      
+  :complete => "empty_trash()"
+)%>
+
+<script>    
+    function fill_trash() {
+        $('trash').src = "/images/trashfull.jpg";
+    }       
+  
+    function empty_trash() {
+        $('trash').src = "/images/trash.jpg";
+    }     
+</script>

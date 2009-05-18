@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/jacknero/!svn/ver/7/src/rails/rubyweblog/db/migrate
+END
+002_add_body_to_post.rb
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/jacknero/!svn/ver/7/src/rails/rubyweblog/db/migrate/002_add_body_to_post.rb
+END
+003_create_comments.rb
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/jacknero/!svn/ver/7/src/rails/rubyweblog/db/migrate/003_create_comments.rb
+END
+001_create_posts.rb
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/jacknero/!svn/ver/7/src/rails/rubyweblog/db/migrate/001_create_posts.rb
+END

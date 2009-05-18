@@ -1,0 +1,10 @@
+<% comment_id = "comment_#{comment.id}" %>
+<div class="comment" id=<%= comment_id %> > 
+  <li>
+    <%= h comment.comment %><br>
+    <div style="color: #999; font-size: 8pt">
+       Posted on <%= comment.created_at.strftime("%B %d, %Y at %I:%M %p") %>
+    </div>
+ </li>
+</div>
+<%= draggable_element(comment_id, :revert=>true) %>

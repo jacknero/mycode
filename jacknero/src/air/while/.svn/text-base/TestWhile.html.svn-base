@@ -1,0 +1,13 @@
+<html>
+  <body>
+    <script type="text/javascript">
+      var kekka = 0;
+      var   i = 1;
+      while (i <= 100){
+        kekka = kekka + i;
+        i = i + 1;
+      }
+      alert(kekka);
+    </script>
+  </body>
+  </html>
