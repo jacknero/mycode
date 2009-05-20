@@ -343,9 +343,6 @@ colorscheme  torte
 
 let plugin_minibufexpl_disable = 1
 let plugin_lookupfile_disable = 1
-if exists('plugin_minibufexpl_disable')
-  finish
-endif
 
 
 "" Ctrl-Tを押した時にバッファの一覧を開く
@@ -375,3 +372,6 @@ endif
 filetype plugin on
 
 
+if exists('plugin_minibufexpl_disable')
+  finish
+endif
