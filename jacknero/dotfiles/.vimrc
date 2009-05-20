@@ -6,6 +6,7 @@
 "    endif
 syntax on
 
+au BufRead,BufNewFile *.txx set filetype=cpp
 " rails.vim
 let g:rails_level=4
 let g:rails_default_file="app/controllers/application.rb"
