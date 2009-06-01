@@ -6,6 +6,7 @@
 "    endif
 syntax on
 
+filetype plugin on
 " rails.vim
 let g:rails_level=4
 let g:rails_default_file="app/controllers/application.rb"
@@ -195,41 +196,41 @@ nmap ,U :set encoding=utf-8<CR>
 nmap ,E :set encoding=euc-jp<CR>
 nmap ,S :set encoding=cp932<CR>
 
-" カレントバッファを評価
-let g:FtEvalCommand = {
-      \   'scheme' : 'system("gosh"  , "(display (begin\n" . a:expr . "\n))")', 
-      \   'gauche' : 'system("gosh"  , "(display (begin\n" . a:expr . "\n))")', 
-      \   'gosh'   : 'system("gosh"  , "(display (begin\n" . a:expr . "\n))")', 
-      \   'perl'   : 'system("perl"  , "print eval{use Data::Dumper;$Data::Dumper::Terse = 1;$Data::Dumper::Indent = 0;Dumper " . a:expr . " }")',
-      \   'python' : 'system("python", "print(" . a:expr . ")")', 
-      \   'ruby'   : 'system("ruby " , "p proc {\n" . a:expr . "\n}.call")', 
-      \   'vim'    : 'eval(a:expr)', 
-      \ }
-
-function g:FtEval(expr, filetype)
-  unlet! g:FtEvalResult
-  let g:FtEvalResult = eval(a:filetype !~ '\S' ? g:FtEvalCommand[&filetype] : g:FtEvalCommand[a:filetype]) 
-  return g:FtEvalResult
-endfunction
-
-function <SID>GetVisualText()
-  let p0 = getpos('''<')
-  let p1 = getpos('''>')
-
-  if p0[1] == p1[1]
-    return getline(p0[1])[ p0[2] - 1 : p1[2] - 1 ]
-  endif
-  return join([ getline(p0[1])[ p0[2] - 1 : ] ] +  getline(p0[1] + 1, p1[1] - 1) + [ getline(p1[1])[ : p1[2] - 1 ] ] , "\n")
-endfunction
-
-command -narg=? -range FtEvalLine   echo g:FtEval(getline('.'),                <q-args>)
-command -narg=? -range FtEvalBuffer echo g:FtEval(join(getline(0, '$'), "\n"), <q-args>)
-command -narg=? -range FtEvalVisual echo g:FtEval(<SID>GetVisualText(),        <q-args>)
-
-nnoremap <Space>e :FtEvalLine<CR>
-nnoremap <Space>E :FtEvalBuffer<CR>
-vnoremap <Space>e :FtEvalVisual<CR>
-vnoremap <Space>E :FtEvalVisual vim<CR>
+"" カレントバッファを評価
+"let g:FtEvalCommand = {
+"      \   'scheme' : 'system("gosh"  , "(display (begin\n" . a:expr . "\n))")', 
+"      \   'gauche' : 'system("gosh"  , "(display (begin\n" . a:expr . "\n))")', 
+"      \   'gosh'   : 'system("gosh"  , "(display (begin\n" . a:expr . "\n))")', 
+"      \   'perl'   : 'system("perl"  , "print eval{use Data::Dumper;$Data::Dumper::Terse = 1;$Data::Dumper::Indent = 0;Dumper " . a:expr . " }")',
+"      \   'python' : 'system("python", "print(" . a:expr . ")")', 
+"      \   'ruby'   : 'system("ruby " , "p proc {\n" . a:expr . "\n}.call")', 
+"      \   'vim'    : 'eval(a:expr)', 
+"      \ }
+"
+"function g:FtEval(expr, filetype)
+"  unlet! g:FtEvalResult
+"  let g:FtEvalResult = eval(a:filetype !~ '\S' ? g:FtEvalCommand[&filetype] : g:FtEvalCommand[a:filetype]) 
+"  return g:FtEvalResult
+"endfunction
+"
+"function <SID>GetVisualText()
+"  let p0 = getpos('''<')
+"  let p1 = getpos('''>')
+"
+"  if p0[1] == p1[1]
+"    return getline(p0[1])[ p0[2] - 1 : p1[2] - 1 ]
+"  endif
+"  return join([ getline(p0[1])[ p0[2] - 1 : ] ] +  getline(p0[1] + 1, p1[1] - 1) + [ getline(p1[1])[ : p1[2] - 1 ] ] , "\n")
+"endfunction
+"
+"command -narg=? -range FtEvalLine   echo g:FtEval(getline('.'),                <q-args>)
+"command -narg=? -range FtEvalBuffer echo g:FtEval(join(getline(0, '$'), "\n"), <q-args>)
+"command -narg=? -range FtEvalVisual echo g:FtEval(<SID>GetVisualText(),        <q-args>)
+"
+"nnoremap <Space>e :FtEvalLine<CR>
+"nnoremap <Space>E :FtEvalBuffer<CR>
+"vnoremap <Space>e :FtEvalVisual<CR>
+"vnoremap <Space>E :FtEvalVisual vim<CR>
 
 
 
@@ -250,13 +251,15 @@ autocmd BufReadPost * if line("'\"") > 0 && line("'\"") <= line("$") | exe "norm
 
 "" MiniBufExplorer で GNU screen likeなキーバインド
 let mapleader = "" 
-""nnoremap <Leader>f :last<CR>
-""nnoremap <Leader><C-f> :last<CR>
+nnoremap <Leader>f :last<CR>
+nnoremap <Leader><C-f> :last<CR>
 "nmap <Space> :MBEbn<CR>
 "nmap <F3> :MBEbp<CR>
 "nmap <F4> :MBEbn<CR>
 "nnoremap <Leader><Space> :MBEbn<CR>
 "nnoremap <Leader>n       :MBEbn<CR>
+nnoremap <Leader><Space> :bn<CR>
+nnoremap <Leader>n       :bn<CR>
 "nnoremap <Leader><C-n>   :MBEbn<CR>
 "nnoremap <Leader>p       :MBEbp<CR>
 "nnoremap <Leader><C-p>   :MBEbp<CR>
@@ -371,6 +374,5 @@ else
   nmap yy yy,c
 endif
 
-filetype plugin on
 
 

@@ -43,7 +43,7 @@
             "\C-cs" 'scheme-other-window)
 
 
-
+(setq load-path(cons "~/.emacs.d/elisp" load-path))
 
 ;; ~/elisp
 (setq load-path
@@ -52,6 +52,7 @@
           (expand-file-name "~/elisp/")
           )
         load-path))
+
 
 ;; ruby-mode
 (autoload 'ruby-mode "ruby-mode"
@@ -94,7 +95,7 @@
 ;; ruby-block
 (require 'ruby-block)
 (ruby-block-mode t)
-;; $B%_%K%P%C%U%!$KI=<($7(B, $B$+$D(B, $B%*!<%P%l%$$9$k(B.
+;; ミニバッファに表示し, かつ, オーバレイする.
 (setq ruby-block-highlight-toggle 0 )
 
 (define-key rails-minor-mode-map "\C-c\C-p" 'rails-lib:run-primary-switch)
@@ -115,3 +116,167 @@
 
 (define-key global-map
   "\C-cs" 'scheme-other-window)
+
+;;文字化け防止
+(set-clipboard-coding-system 'utf-8)
+(setq x-select-enable-clipboard t)
+
+;; flymake for ruby
+(require 'flymake)
+;; Invoke ruby with '-c' to get syntax checking
+(defun flymake-ruby-init ()
+  (let* ((temp-file   (flymake-init-create-temp-buffer-copy
+                       'flymake-create-temp-inplace))
+         (local-file  (file-relative-name
+                       temp-file
+                       (file-name-directory buffer-file-name))))
+    (list "ruby" (list "-c" local-file))))
+(push '(".+¥¥.rb$" flymake-ruby-init) flymake-allowed-file-name-masks)
+(push '("Rakefile$" flymake-ruby-init) flymake-allowed-file-name-masks)
+(push '("^¥¥(.*¥¥):¥¥([0-9]+¥¥): ¥¥(.*¥¥)$" 1 2 nil 3) flymake-err-line-patterns)
+(add-hook
+ 'ruby-mode-hook
+ '(lambda ()
+    ;; Don't want flymake mode for ruby regions in rhtml files
+    (if (not (null buffer-file-name)) (flymake-mode))
+    ;; エラー行で C-c d するとエラーの内容をミニバッファで表示する
+    (define-key ruby-mode-map "¥C-cd" 'credmp/flymake-display-err-minibuf)))
+
+(defun credmp/flymake-display-err-minibuf ()
+  "Displays the error/warning for the current line in the minibuffer"
+  (interactive)
+  (let* ((line-no             (flymake-current-line-no))
+         (line-err-info-list  (nth 0 (flymake-find-err-info flymake-err-info line-no)))
+         (count               (length line-err-info-list))
+         )
+    (while (> count 0)
+      (when line-err-info-list
+        (let* ((file       (flymake-ler-file (nth (1- count) line-err-info-list)))
+               (full-file  (flymake-ler-full-file (nth (1- count) line-err-info-list)))
+               (text (flymake-ler-text (nth (1- count) line-err-info-list)))
+               (line       (flymake-ler-line (nth (1- count) line-err-info-list))))
+          (message "[%s] %s" line text)
+          )
+        )
+      (setq count (1- count)))))
+
+
+
+ (setq gdb-many-windows t)
+  (setq gdb-use-separate-io-buffer t) ; "IO buffer" が必要ない場合は  nil で
+
+(defun my-insert-printf-debug ()
+  (interactive)
+  (insert-string "printf(¥"%s %s:%d¥¥n¥", __func__, __FILE__, __LINE__);")
+  (indent-according-to-mode)
+)
+
+(add-hook 'c++-mode-hook
+  (function (lambda ()
+              (define-key c++-mode-map (kbd "C-c d") 'my-insert-printf-debug)
+)))
+
+(defface my-face-elisp-macro
+  '((t (:foreground "sea green"))) nil)
+(defface my-face-elisp-subr
+  '((t (:foreground "purple"))) nil)
+(defface my-face-elisp-func
+  '((t (:foreground "medium blue"))) nil)
+(defun my-font-lock-elisp-macro (limit)
+  (when (re-search-forward
+         "['(]¥¥([^() ¥n]+¥¥)" limit t)
+    (or (and (not (memq (get-text-property
+                         0 'face (match-string 1))
+                        '(font-lock-comment-face
+                          font-lock-warning-face)))
+             (condition-case nil
+                 (symbol-function
+                  (intern-soft
+                   (match-string-no-properties 1)))
+               (error nil)))
+        (my-font-lock-elisp-macro limit))))
+(defun my-font-lock-elisp-subr (limit)
+  (when (re-search-forward
+         "['(]¥¥([^() ¥n]+¥¥)" limit t)
+    (or (and (not (memq (get-text-property
+                         0 'face (match-string 1))
+                        '(font-lock-comment-face
+                          font-lock-warning-face)))
+             (subrp
+              (condition-case nil
+                  (symbol-function
+                   (intern-soft
+                    (match-string-no-properties 1)))
+                (error nil))))
+        (my-font-lock-elisp-subr limit))))
+(defun my-font-lock-elisp-func (limit)
+  (when (re-search-forward
+         "['(]¥¥([^() ¥n]+¥¥)" limit t)
+    (or (and (not (memq
+                   (get-text-property
+                    0 'face (match-string 1))
+                   '(font-lock-comment-face
+                     font-lock-warning-face)))
+             (byte-code-function-p
+              (condition-case nil
+                  (symbol-function
+                   (intern-soft
+                    (match-string-no-properties 1)))
+                (error nil))))
+        (my-font-lock-elisp-func limit))))
+(font-lock-add-keywords
+ 'lisp-interaction-mode
+ '((my-font-lock-elisp-macro 1 'my-face-elisp-macro t)) t)
+(font-lock-add-keywords
+ 'lisp-interaction-mode
+ '((my-font-lock-elisp-func 1 'my-face-elisp-func t)) t)
+(font-lock-add-keywords
+ 'lisp-interaction-mode
+ '((my-font-lock-elisp-subr 1 'my-face-elisp-subr t)) t)
+(font-lock-add-keywords
+ 'emacs-lisp-mode
+ '((my-font-lock-elisp-macro 1 'my-face-elisp-macro t)) t)
+(font-lock-add-keywords
+ 'emacs-lisp-mode
+ '((my-font-lock-elisp-func 1 'my-face-elisp-func t)) t)
+(font-lock-add-keywords
+ 'emacs-lisp-mode
+ '((my-font-lock-elisp-subr 1 'my-face-elisp-subr t)) t)
+
+
+
+(require 'cpp-complt)
+(add-hook
+ 'c-mode-hook
+ '(lambda()
+    ;; C/C++ でヘッダを補完入力.
+    (define-key c-mode-map "#" 'cpp-complt-instruction-completing)
+    (define-key c-mode-map "¥C-c#" 'cpp-complt-ifdef-region)))
+
+(add-hook 'c-mode-common-hook
+          (function (lambda ()
+                      (require 'cpp-complt)
+                      (define-key c-mode-map [mouse-2]
+                        'cpp-complt-include-mouse-select)
+                      (define-key c-mode-map "#"
+                        'cpp-complt-instruction-completing)
+                      (define-key c-mode-map "¥C-c#"
+                        'cpp-complt-ifdef-region)
+                      (cpp-complt-init))))
+;; まず、install-elisp のコマンドを使える様にします。
+(require 'install-elisp)
+;; 次に、Elisp ファイルをインストールする場所を指定します。
+(setq install-elisp-repository-directory "~/.emacs.d/elisp/")
+
+(require 'auto-complete)
+(global-auto-complete-mode t)
+
+;; iswitch
+(iswitchb-mode 1)
+
+;; anythin-el
+(require 'anything-config)
+
+
+
+
