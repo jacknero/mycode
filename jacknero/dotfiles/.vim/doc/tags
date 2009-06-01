@@ -98,6 +98,21 @@ LookupFile_UsingSpecializedTags	lookupfile.txt	/*LookupFile_UsingSpecializedTags
 LookupFile_ignorecase	lookupfile.txt	/*LookupFile_ignorecase*
 LookupFile_smartcase	lookupfile.txt	/*LookupFile_smartcase*
 LookupFile_switchbuf	lookupfile.txt	/*LookupFile_switchbuf*
+<<<<<<< HEAD:jacknero/dotfiles/.vim/doc/tags
+=======
+OmniCpp_DefaultNamespaces	omnicppcomplete.txt	/*OmniCpp_DefaultNamespaces*
+OmniCpp_DisplayMode	omnicppcomplete.txt	/*OmniCpp_DisplayMode*
+OmniCpp_GlobalScopeSearch	omnicppcomplete.txt	/*OmniCpp_GlobalScopeSearch*
+OmniCpp_LocalSearchDecl	omnicppcomplete.txt	/*OmniCpp_LocalSearchDecl*
+OmniCpp_MayCompleteArrow	omnicppcomplete.txt	/*OmniCpp_MayCompleteArrow*
+OmniCpp_MayCompleteDot	omnicppcomplete.txt	/*OmniCpp_MayCompleteDot*
+OmniCpp_MayCompleteScope	omnicppcomplete.txt	/*OmniCpp_MayCompleteScope*
+OmniCpp_NamespaceSearch	omnicppcomplete.txt	/*OmniCpp_NamespaceSearch*
+OmniCpp_SelectFirstItem	omnicppcomplete.txt	/*OmniCpp_SelectFirstItem*
+OmniCpp_ShowAccess	omnicppcomplete.txt	/*OmniCpp_ShowAccess*
+OmniCpp_ShowPrototypeInAbbr	omnicppcomplete.txt	/*OmniCpp_ShowPrototypeInAbbr*
+OmniCpp_ShowScopeInAbbr	omnicppcomplete.txt	/*OmniCpp_ShowScopeInAbbr*
+>>>>>>> 429e67d7569d52c4b6d558e213336891e6ed17c3:jacknero/dotfiles/.vim/doc/tags
 Tlist_Get_Tag_Prototype_By_Line()	taglist.txt	/*Tlist_Get_Tag_Prototype_By_Line()*
 Tlist_Get_Tagname_By_Line()	taglist.txt	/*Tlist_Get_Tagname_By_Line()*
 Tlist_Set_App()	taglist.txt	/*Tlist_Set_App()*
@@ -208,6 +223,7 @@ csupport-usage-vim	csupport.txt	/*csupport-usage-vim*
 csupport-windows	csupport.txt	/*csupport-windows*
 csupport.txt	csupport.txt	/*csupport.txt*
 cvscommand-changes	vcscommand.txt	/*cvscommand-changes*
+<<<<<<< HEAD:jacknero/dotfiles/.vim/doc/tags
 errormarker	errormarker.txt	/*errormarker*
 errormarker-changelog	errormarker.txt	/*errormarker-changelog*
 errormarker-credits	errormarker.txt	/*errormarker-credits*
@@ -220,6 +236,8 @@ errormarker_warninggroup	errormarker.txt	/*errormarker_warninggroup*
 errormarker_warningicon	errormarker.txt	/*errormarker_warningicon*
 errormarker_warningtext	errormarker.txt	/*errormarker_warningtext*
 errormarker_warningtypes	errormarker.txt	/*errormarker_warningtypes*
+=======
+>>>>>>> 429e67d7569d52c4b6d558e213336891e6ed17c3:jacknero/dotfiles/.vim/doc/tags
 ft-ruby-omni	ft-ruby-omni.txt	/*ft-ruby-omni*
 ft-ruby-syntax	ft-ruby-syntax.txt	/*ft-ruby-syntax*
 g:loaded_rails	rails.txt	/*g:loaded_rails*
@@ -272,6 +290,22 @@ lookupfile-wishlist	lookupfile.txt	/*lookupfile-wishlist*
 lookupfile.txt	lookupfile.txt	/*lookupfile.txt*
 macros/rails.vim	rails.txt	/*macros\/rails.vim*
 multiple-items-example	yankring.txt	/*multiple-items-example*
+<<<<<<< HEAD:jacknero/dotfiles/.vim/doc/tags
+=======
+omnicpp-download	omnicppcomplete.txt	/*omnicpp-download*
+omnicpp-faq	omnicppcomplete.txt	/*omnicpp-faq*
+omnicpp-features	omnicppcomplete.txt	/*omnicpp-features*
+omnicpp-history	omnicppcomplete.txt	/*omnicpp-history*
+omnicpp-installation	omnicppcomplete.txt	/*omnicpp-installation*
+omnicpp-limitations	omnicppcomplete.txt	/*omnicpp-limitations*
+omnicpp-may-complete	omnicppcomplete.txt	/*omnicpp-may-complete*
+omnicpp-options	omnicppcomplete.txt	/*omnicpp-options*
+omnicpp-overview	omnicppcomplete.txt	/*omnicpp-overview*
+omnicpp-popup	omnicppcomplete.txt	/*omnicpp-popup*
+omnicpp-thanks	omnicppcomplete.txt	/*omnicpp-thanks*
+omnicppcomplete	omnicppcomplete.txt	/*omnicppcomplete*
+omnicppcomplete.txt	omnicppcomplete.txt	/*omnicppcomplete.txt*
+>>>>>>> 429e67d7569d52c4b6d558e213336891e6ed17c3:jacknero/dotfiles/.vim/doc/tags
 project	project.txt	/*project*
 project-adding-mappings	project.txt	/*project-adding-mappings*
 project-example	project.txt	/*project-example*

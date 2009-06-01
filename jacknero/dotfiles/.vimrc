@@ -6,7 +6,11 @@
 "    endif
 syntax on
 
+<<<<<<< HEAD:jacknero/dotfiles/.vimrc
 filetype plugin on
+=======
+au BufRead,BufNewFile *.txx set filetype=cpp
+>>>>>>> 429e67d7569d52c4b6d558e213336891e6ed17c3:jacknero/dotfiles/.vimrc
 " rails.vim
 let g:rails_level=4
 let g:rails_default_file="app/controllers/application.rb"
@@ -345,9 +349,6 @@ colorscheme  torte
 
 let plugin_minibufexpl_disable = 1
 let plugin_lookupfile_disable = 1
-if exists('plugin_minibufexpl_disable')
-  finish
-endif
 
 
 "" Ctrl-Tを押した時にバッファの一覧を開く
@@ -376,3 +377,6 @@ endif
 
 
 
+if exists('plugin_minibufexpl_disable')
+  finish
+endif
