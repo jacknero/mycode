@@ -6,11 +6,9 @@
 "    endif
 syntax on
 
-<<<<<<< HEAD:jacknero/dotfiles/.vimrc
+
 filetype plugin on
-=======
 au BufRead,BufNewFile *.txx set filetype=cpp
->>>>>>> 429e67d7569d52c4b6d558e213336891e6ed17c3:jacknero/dotfiles/.vimrc
 " rails.vim
 let g:rails_level=4
 let g:rails_default_file="app/controllers/application.rb"
@@ -375,7 +373,9 @@ else
   nmap yy yy,c
 endif
 
+set viminfo+=!
 
+"setlocal spell spelllang=en
 
 if exists('plugin_minibufexpl_disable')
   finish
