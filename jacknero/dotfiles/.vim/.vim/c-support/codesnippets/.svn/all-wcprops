@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/jacknero/!svn/ver/12/dotfiles/.vim/c-support/codesnippets
+END
+print_double_array.c.noindent
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/jacknero/!svn/ver/12/dotfiles/.vim/c-support/codesnippets/print_double_array.c.noindent
+END
+print_int_array.c.noindent
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/jacknero/!svn/ver/12/dotfiles/.vim/c-support/codesnippets/print_int_array.c.noindent
+END
+Makefile.multi-target.template
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/jacknero/!svn/ver/12/dotfiles/.vim/c-support/codesnippets/Makefile.multi-target.template
+END
+main.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/jacknero/!svn/ver/12/dotfiles/.vim/c-support/codesnippets/main.c
+END
+main.cc
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/jacknero/!svn/ver/12/dotfiles/.vim/c-support/codesnippets/main.cc
+END
+calloc_double_matrix.c
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/jacknero/!svn/ver/12/dotfiles/.vim/c-support/codesnippets/calloc_double_matrix.c
+END
+calloc_int_matrix.c
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/jacknero/!svn/ver/12/dotfiles/.vim/c-support/codesnippets/calloc_int_matrix.c
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/jacknero/!svn/ver/12/dotfiles/.vim/c-support/codesnippets/Makefile
+END

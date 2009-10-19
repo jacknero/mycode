@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/matsui/git/mycode/jacknero/src/c++/Boost/asio/test.cxx
+iostream
+-
+string
+-
+boost/asio.hpp
+-
+

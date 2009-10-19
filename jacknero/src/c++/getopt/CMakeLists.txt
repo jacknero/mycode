@@ -1,0 +1,8 @@
+PROJECT(GetOpt)
+cmake_minimum_required(VERSION 2.6)
+INCLUDE_REGULAR_EXPRESSION("^.*$")
+INCLUDE_DIRECTORIES(./)
+
+ADD_EXECUTABLE(GetOpt get.cpp GetPot)
+TARGET_LINK_LIBRARIES(GetOpt )
+

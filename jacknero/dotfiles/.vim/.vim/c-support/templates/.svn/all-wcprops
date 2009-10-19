@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/jacknero/!svn/ver/12/dotfiles/.vim/c-support/templates
+END
+c.idioms.template
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/jacknero/!svn/ver/12/dotfiles/.vim/c-support/templates/c.idioms.template
+END
+cpp.idioms.template
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/jacknero/!svn/ver/12/dotfiles/.vim/c-support/templates/cpp.idioms.template
+END
+c.comments.template
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/jacknero/!svn/ver/12/dotfiles/.vim/c-support/templates/c.comments.template
+END
+cpp.comments.template
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/jacknero/!svn/ver/12/dotfiles/.vim/c-support/templates/cpp.comments.template
+END
+c.preprocessor.template
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/jacknero/!svn/ver/12/dotfiles/.vim/c-support/templates/c.preprocessor.template
+END
+cpp.preprocessor.template
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/jacknero/!svn/ver/12/dotfiles/.vim/c-support/templates/cpp.preprocessor.template
+END
+c.statements.template
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/jacknero/!svn/ver/12/dotfiles/.vim/c-support/templates/c.statements.template
+END
+cpp.statements.template
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/jacknero/!svn/ver/12/dotfiles/.vim/c-support/templates/cpp.statements.template
+END
+c.cpp.template
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/jacknero/!svn/ver/12/dotfiles/.vim/c-support/templates/c.cpp.template
+END
+cpp.cpp.template
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/jacknero/!svn/ver/12/dotfiles/.vim/c-support/templates/cpp.cpp.template
+END
+Templates
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/jacknero/!svn/ver/12/dotfiles/.vim/c-support/templates/Templates
+END

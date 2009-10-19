@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/matsui/git/mycode/jacknero/src/c++/getopt/get.cpp
+iostream
+-
+GetPot
+-
+
+GetPot
+ctype.h
+-
+stdio.h
+-
+stdarg.h
+-
+assert.h
+-
+string.h
+-
+cmath
+-
+string
+-
+vector
+-
+algorithm
+-
+fstream
+-
+iostream
+-
+

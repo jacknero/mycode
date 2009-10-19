@@ -52,11 +52,19 @@ Returns: 10
 #include <vector>
 #include <iostream>
 #include <sstream>
+using namespace std;
 
 class YahtzeeScore {
 public:
  int maxPoints (vector <int> toss) {
+   const int DICE=6;
+   int counts[DICE];
+   
+   for(unsigned int i = 0; i < toss.size();i++){
+     cout << toss[i] << endl;
+   }
 
+   return 0;
 }
  
 // BEGIN CUT HERE

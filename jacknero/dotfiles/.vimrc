@@ -9,6 +9,7 @@ syntax on
 
 filetype plugin on
 au BufRead,BufNewFile *.txx set filetype=cpp
+
 " rails.vim
 let g:rails_level=4
 let g:rails_default_file="app/controllers/application.rb"
@@ -332,8 +333,8 @@ set path+=,/usr/local/include/InsightToolkit/*
 filetype on
 filetype indent on
 
-set fdm=syntax
-set nu
+"set fdm=syntax
+"set nu
 
 "c++の関数を強調表示
 autocmd FileType c,cpp syntax match CFunction /[a-zA-Z_]\w*(\@=/
@@ -375,7 +376,131 @@ endif
 
 set viminfo+=!
 
+"minibuffrer用
+"let g:miniBufExplMapWindowNavVim = 1
+"let g:miniBufExplMapWindowNavArrows = 1
+"let g:miniBufExplMapCTabSwitchBuffs = 1
+
 "setlocal spell spelllang=en
+
+"" Tabs
+nnoremap <Space>t t
+nnoremap <Space>T T
+nnoremap t <Nop>
+nnoremap <silent> tc :<C-u>tabnew<CR>:tabmove<CR>
+nnoremap <silent> tk :<C-u>tabclose<CR>
+nnoremap <silent> tn :<C-u>tabnext<CR>
+nnoremap <silent> tp :<C-u>tabprevious<CR>
+
+" FuzzyFinder.vim
+nnoremap <Space>f f
+nnoremap <Space>F F
+nnoremap f <Nop>
+nnoremap <silent> fb :<C-u>FuzzyFinderBuffer!<CR>
+nnoremap <silent> ff :<C-u>FuzzyFinderFile!  <C-r>=expand('%:~:.')[:-1-len(expand('%:~:.:t'))]<CR><CR>
+nnoremap <silent> fm :<C-u>FuzzyFinderMruFile!<CR>
+nnoremap <silent> tb :<C-u>tabnew<CR>:tabmove<CR>:FuzzyFinderBuffer!<CR>
+nnoremap <silent> tf :<C-u>tabnew<CR>:tabmove<CR>:FuzzyFinderFile!  <C-r>=expand('#:~:.')[:-1-len(expand('#:~:.:t'))]<CR><CR>
+nnoremap <silent> tm :<C-u>tabnew<CR>:tabmove<CR>:FuzzyFinderMruFile!<CR>
+
+
+"neocomplcache
+"Don't use autocomplpop.
+let g:AutoComplPop_NotEnableAtStartup = 0
+" Use neocomplcache.
+let g:NeoComplCache_EnableAtStartup = 0
+" partialcomplete
+let g:NeoComplCache_PartialMatch = 2
+" MaxList
+let g:NeoComplCache_MaxList = 10
+" Use smartcase.
+let g:NeoComplCache_SmartCase = 1
+" disabpleautocomple
+let g:NeoComplCache_DisableAutoComplete = 1
+" Use previous keyword completion.
+let g:NeoComplCache_PreviousKeywordCompletion = 1
+" Use preview window.
+let g:NeoComplCache_EnableInfo = 1
+" Use camel case completion.
+let g:NeoComplCache_EnableCamelCaseCompletion = 1
+" Use underbar completion.
+let g:NeoComplCache_EnableUnderbarCompletion = 1
+" Set minimum syntax keyword length.
+let g:NeoComplCache_MinSyntaxLength = 3
+" Set skip input time.
+let g:NeoComplCache_SkipInputTime = '0.1'
+" AlphabeticalOrder
+let g:NeoComplCache_AlphabeticalOrder = 1
+" Define dictionary.
+let g:NeoComplCache_DictionaryFileTypeLists = {
+      \ 'default' : '',
+      \ 'vimshell' : $HOME.'/.vimshell_hist',
+      \ 'scheme' : $HOME.'/.gosh_completions'
+      \ }
+
+" Define keyword.
+if !exists('g:NeoComplCache_KeywordPatterns')
+  let g:NeoComplCache_KeywordPatterns = {}
+endif
+let g:NeoComplCache_KeywordPatterns['default'] = '\v\h\w*'
+
+" Plugin
+"key-mappings.
+imap <silent><C-l> <Plug>(neocomplcache_snippets_expand)
+smap <silent><C-l> <Plug>(neocomplcache_snippets_expand)
+nmap <silent><C-e> <Plug>(neocomplcache_keyword_caching)
+imap <expr><silent><C-e> pumvisible() ?  "\<C-e>" : "\<Plug>(neocomplcache_keyword_caching)"
+
+" VimShell
+" Initialize execute file list.
+let g:VimShell_ExecuteFileList = {}
+let g:VimShell_ExecuteFileList['txt'] = 'vim'
+let g:VimShell_ExecuteFileList['vim'] = 'vim'
+let g:VimShell_ExecuteFileList['rb'] = 'ruby'
+let g:VimShell_ExecuteFileList['pl'] = 'perl'
+let g:VimShell_ExecuteFileList['py'] = 'python'
+
+let g:VimShell_EnableInteractive = 1
+let g:VimShell_EnableSmartCase = 1
+
+if has('win32') || has('win64') 
+  " Display user name on Windows.
+  let g:VimShell_Prompt = $USERNAME."% "
+
+  " Use ckw.
+  let g:VimShell_UseCkw = 1
+else
+  " Display user name on Linux.
+  let g:VimShell_Prompt = $USER."% "
+
+  call vimshell#set_execute_file('bmp,jpg,png,gif', 'bg eog')
+  call vimshell#set_execute_file('mp3,m4a,ogg', 'bg amarok')
+  let g:VimShell_ExecuteFileList['zip'] = 'zipinfo'
+  call vimshell#set_execute_file('tgz,gz', 'gzcat')
+  call vimshell#set_execute_file('tbz,bz2', 'bzcat')
+endif
+map <C-U> <C-Y>2<C-Y>2<C-Y>2<C-Y>2<C-Y><C-Y>
+"map <C-D> <C-E>2<C-E>2<C-E>2<C-E>2<C-E><C-E>
+map <C-D> 2j2j2j2j2j2j
+
+"Autocomple.vim
+"autocmd Filetype * let g:AutoComplPop_CompleteOption='.,w,b,u,t'
+
+"a.vim
+let g:alternateExtensions_h = "c,cpp,cxx,cc,CC,txx"
+let g:alternateExtensions_H = "C,CPP,CXX,CC"
+let g:alternateExtensions_cpp = "h,hpp"
+let g:alternateExtensions_CPP = "H,HPP"
+let g:alternateExtensions_txx = "h,hpp"
+let g:alternateExtensions_c = "h"
+let g:alternateExtensions_C = "H"
+let g:alternateExtensions_cxx = "h"
+
+
+" !: vimshell interactive execute.
+nnoremap !  :<C-u>VimShellInteractive<Space>
+" &: vimshell background execute.  
+nnoremap & :<C-u>VimShellExecute<Space>
 
 if exists('plugin_minibufexpl_disable')
   finish

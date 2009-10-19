@@ -1,0 +1,7 @@
+ENV.each{|key, value|
+print key
+print value
+}
+
+a=[1,2,3,4]
+a.l

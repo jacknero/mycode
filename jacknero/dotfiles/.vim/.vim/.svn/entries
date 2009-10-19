@@ -1,0 +1,240 @@
+8
+
+dir
+19
+http://svn.assembla.com/svn/jacknero/dotfiles/.vim
+http://svn.assembla.com/svn/jacknero
+
+
+
+2008-09-13T08:30:07.942870Z
+14
+jacknero
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+e0e46c49-be69-4f5a-ad62-21024a331aea
+
+taglist_45.zip
+file
+
+
+
+
+2008-11-26T15:25:14.000000Z
+99b5366a64eea6092bb140df7d4c1a95
+2008-08-30T06:36:03.217135Z
+12
+jacknero
+has-props
+
+indent
+dir
+
+dict
+dir
+
+CHANGES.txt
+file
+
+
+
+
+2008-11-26T15:25:14.000000Z
+4259f225337dfc879255e70c985650f1
+2008-08-30T06:36:03.217135Z
+12
+jacknero
+
+syntax
+dir
+
+scripts
+dir
+
+ChangeLog
+file
+
+
+
+
+2008-11-26T15:25:14.000000Z
+877b126b65ad40f57d95fe6b3a5d9876
+2008-08-30T06:36:03.217135Z
+12
+jacknero
+
+ftplugin
+dir
+
+qbuf_readme.txt
+file
+
+
+
+
+2008-11-26T15:25:14.000000Z
+e7ffcac1dcf2177b828e490d0df8c773
+2008-08-30T06:36:03.217135Z
+12
+jacknero
+
+vcscommand.zip
+file
+
+
+
+
+2008-11-26T15:25:14.000000Z
+489d014a48a120447a65e906eaaa7360
+2008-09-13T08:13:26.736764Z
+13
+jacknero
+has-props
+
+c-support
+dir
+
+CONTRIBUTORS
+file
+
+
+
+
+2008-11-26T15:25:14.000000Z
+edba28eee127379a7723fca8065e07fe
+2008-08-30T06:36:03.217135Z
+12
+jacknero
+
+README
+file
+
+
+
+
+2008-11-26T15:25:14.000000Z
+6ba5923943ad6867c8e6089acb6d211a
+2008-08-30T06:36:03.217135Z
+12
+jacknero
+
+plugin
+dir
+
+qbuf.zip
+file
+
+
+
+
+2008-11-26T15:25:14.000000Z
+71669a14fe7b3e47997202218b05ea4f
+2008-08-30T06:36:03.217135Z
+12
+jacknero
+has-props
+
+cvim.zip
+file
+
+
+
+
+2008-11-26T15:25:14.000000Z
+4e92456c70d13b8f25971d7b708874e1
+2008-08-30T06:36:03.217135Z
+12
+jacknero
+has-props
+
+colors
+dir
+
+ftdetect
+dir
+
+doc
+dir
+
+INSTALL
+file
+
+
+
+
+2008-11-26T15:25:14.000000Z
+8bfa9641470eca4a3f4d349d79fd0da9
+2008-08-30T06:36:03.217135Z
+12
+jacknero
+
+FAQ
+file
+
+
+
+
+2008-11-26T15:25:14.000000Z
+a4fae1ccb1c204c1772b41c6a9b7cce7
+2008-08-30T06:36:03.217135Z
+12
+jacknero
+
+autoload
+dir
+
+bin
+dir
+
+compiler
+dir
+
+README.csupport
+file
+
+
+
+
+2008-11-26T15:25:14.000000Z
+cea7f085583639e270370e16e8f9a54e
+2008-08-30T06:36:03.217135Z
+12
+jacknero
+
+rails.zip
+file
+
+
+
+
+2008-11-26T15:25:14.000000Z
+cd587ebf72ef582ca12477fe0d0e8915
+2008-08-30T06:36:03.217135Z
+12
+jacknero
+has-props
+
+NEWS
+file
+
+
+
+
+2008-11-26T15:25:14.000000Z
+9e82dabfda369dc10f47449723b28d59
+2008-08-30T06:36:03.217135Z
+12
+jacknero
+

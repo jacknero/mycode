@@ -1,0 +1,41 @@
+8
+
+dir
+19
+http://svn.assembla.com/svn/jacknero/dotfiles/.vim/bin
+http://svn.assembla.com/svn/jacknero
+
+
+
+2008-08-30T06:36:03.217135Z
+12
+jacknero
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+e0e46c49-be69-4f5a-ad62-21024a331aea
+
+vim-ruby-install.rb
+file
+
+
+
+
+2008-11-26T15:25:14.000000Z
+707ba6a088bc5d642a3daa6dca647c5b
+2008-08-30T06:36:03.217135Z
+12
+jacknero
+has-props
+

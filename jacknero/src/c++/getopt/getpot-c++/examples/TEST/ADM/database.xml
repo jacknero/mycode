@@ -1,0 +1,122 @@
+<test-database execution-time-sec="3.39" date="Wed Jul 23 23:01:58 2008">
+    <last-used-diff-display-program name=""/>
+    <test title="Combining GetPot Objects - Absorbtion" make-required="True" time-sum-sec="0.03"> 
+        <application file-name="test-absorb.sh" info-request-time="1216840773L"/>
+        <choice-list number="1">
+           <choice name="" result="OK" time-sec="0.03" crc="1940676037"/>
+        </choice-list>
+    </test>
+    <test title="Variables" make-required="True" time-sum-sec="0.02"> 
+        <application file-name="test-variables.sh" info-request-time="1216840773L"/>
+        <choice-list number="1">
+           <choice name="" result="OK" time-sec="0.02" crc="-787804264"/>
+        </choice-list>
+    </test>
+    <test title="Filter Prefixes" make-required="True" time-sum-sec="0.01"> 
+        <application file-name="test-filter.sh" info-request-time="1216840773L"/>
+        <choice-list number="1">
+           <choice name="" result="OK" time-sec="0.01" crc="648943636"/>
+        </choice-list>
+    </test>
+    <test title="Flags" make-required="True" time-sum-sec="0.01"> 
+        <application file-name="test-flags.sh" info-request-time="1216840773L"/>
+        <choice-list number="1">
+           <choice name="" result="OK" time-sec="0.01" crc="-1710958773"/>
+        </choice-list>
+    </test>
+    <test title="Next Argument" make-required="True" time-sum-sec="0.04"> 
+        <application file-name="test-next.sh" info-request-time="1216840773L"/>
+        <choice-list number="1">
+           <choice name="" result="OK" time-sec="0.04" crc="1374694892"/>
+        </choice-list>
+    </test>
+    <test title="GetPot 'get' - function group" make-required="True" time-sum-sec="0.04"> 
+        <application file-name="test-get.sh" info-request-time="1216840773L"/>
+        <choice-list number="1">
+           <choice name="" result="OK" time-sec="0.04" crc="1073933488"/>
+        </choice-list>
+    </test>
+    <test title="Options (Arguments Starting with '-')" make-required="True" time-sum-sec="0.01"> 
+        <application file-name="test-options.sh" info-request-time="1216840773L"/>
+        <choice-list number="1">
+           <choice name="" result="OK" time-sec="0.01" crc="2057479159"/>
+        </choice-list>
+    </test>
+    <test title="Nominus Arguments" make-required="True" time-sum-sec="0.01"> 
+        <application file-name="test-nominus.sh" info-request-time="1216840773L"/>
+        <choice-list number="1">
+           <choice name="" result="OK" time-sec="0.01" crc="2126385622"/>
+        </choice-list>
+    </test>
+    <test title="Field Separator in Array Arguments" make-required="True" time-sum-sec="0.03"> 
+        <application file-name="test-field-separator.sh" info-request-time="1216840773L"/>
+        <choice-list number="1">
+           <choice name="" result="OK" time-sec="0.03" crc="1328220017"/>
+        </choice-list>
+    </test>
+    <group name="Bug 2026390">
+        <test title="<Volker Mertens> Hangup in Input File Parsing" make-required="True" time-sum-sec="3.00"> 
+            <application file-name="bug-2026390" info-request-time="1216846896L"/>
+            <make-procedure success="True" />
+            <choice-list number="1">
+               <choice name="" result="NO GOOD FILE" time-sec="3.00" crc="125623791"/>
+            </choice-list>
+        </test>
+    </group>
+    <group name="Directly Followed Arguments">
+        <test title="Easy, Using '*_tails()'" make-required="True" time-sum-sec="0.01"> 
+            <application file-name="test-tails.sh" info-request-time="1216840773L"/>
+            <choice-list number="1">
+               <choice name="" result="OK" time-sec="0.01" crc="432258803"/>
+            </choice-list>
+        </test>
+        <test title="Iteration" make-required="True" time-sum-sec="0.02"> 
+            <application file-name="test-direct-follow.sh" info-request-time="1216840773L"/>
+            <choice-list number="1">
+               <choice name="" result="OK" time-sec="0.02" crc="-723645286"/>
+            </choice-list>
+        </test>
+    </group>
+    <group name="Follow Arguments">
+        <test title="Any" make-required="True" time-sum-sec="0.03"> 
+            <application file-name="test-follow.sh" info-request-time="1216840773L"/>
+            <choice-list number="1">
+               <choice name="" result="OK" time-sec="0.03" crc="545757019"/>
+            </choice-list>
+        </test>
+        <test title="Nominuses" make-required="True" time-sum-sec="0.01"> 
+            <application file-name="test-nominus_followers.sh" info-request-time="1216840773L"/>
+            <choice-list number="1">
+               <choice name="" result="OK" time-sec="0.01" crc="212375258"/>
+            </choice-list>
+        </test>
+    </group>
+    <group name="Input File Parsing">
+        <test title="Simple Example" make-required="True" time-sum-sec="0.02"> 
+            <application file-name="test-input-file.sh" info-request-time="1216840773L"/>
+            <choice-list number="1">
+               <choice name="" result="OK" time-sec="0.02" crc="989887701"/>
+            </choice-list>
+        </test>
+        <test title="Macro Expansion (Dollar Brackets)" make-required="True" time-sum-sec="0.05"> 
+            <application file-name="test-expand.sh" info-request-time="1216840773L"/>
+            <choice-list number="1">
+               <choice name="" result="OK" time-sec="0.05" crc="2015543036"/>
+            </choice-list>
+        </test>
+    </group>
+    <group name="UFO-Detection">
+        <test title="Easy" make-required="True" time-sum-sec="0.02"> 
+            <application file-name="test-ez-ufo.sh" info-request-time="1216840773L"/>
+            <choice-list number="1">
+               <choice name="" result="OK" time-sec="0.02" crc="1427058358"/>
+            </choice-list>
+        </test>
+        <test title="User Specified Arguments" make-required="True" time-sum-sec="0.02"> 
+            <application file-name="test-ufo.sh" info-request-time="1216840773L"/>
+            <choice-list number="1">
+               <choice name="" result="OK" time-sec="0.02" crc="-243530715"/>
+            </choice-list>
+        </test>
+    </group>
+</test-database>

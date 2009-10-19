@@ -1,0 +1,6 @@
+print "Hellow";
+
+@array = (0..1000);
+foreach  (@array ){
+    print $_
+}

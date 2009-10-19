@@ -204,14 +204,17 @@ compdef _generate destroy
 
 #alias
 alias h=history
-     alias h-a="history-all"
+alias h-a="history-all"
 PAGER=less
 alias -g L="| $PAGER"
 alias -g G="| grep"
 alias ls=ls --color
 alias screen='screen -U -D -RR'
+alias tmux='tmux a'
 
 source ~/.cdd/cdd
+
+
 function chpwd() {
 _reg_pwd_screennum
      }
@@ -220,4 +223,7 @@ _reg_pwd_screennum
      xset r rate 150 100
 
      PATH=$PATH:/var/lib/gems/1.8/bin/
+     PATH=$PATH:~/.gem/ruby/1.8/gems/rcodetools-0.8.5.0/bin/
+     PATH=$PATH:~/.gem/ruby/1.8/bin/
      #alias emacs="emacs -nw"
+     xmodmap ~/.xmodmap

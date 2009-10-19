@@ -1,0 +1,53 @@
+8
+
+dir
+19
+http://svn.assembla.com/svn/jacknero/dotfiles/.vim/c-support/doc
+http://svn.assembla.com/svn/jacknero
+
+
+
+2008-08-30T06:36:03.217135Z
+12
+jacknero
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+e0e46c49-be69-4f5a-ad62-21024a331aea
+
+ChangeLog
+file
+
+
+
+
+2008-11-26T15:25:12.000000Z
+28bbf8f007844893af5e885bf2928fce
+2008-08-30T06:36:03.217135Z
+12
+jacknero
+
+c-hotkeys.pdf
+file
+
+
+
+
+2008-11-26T15:25:12.000000Z
+3b1c080dc78453f539df389b067b4a3a
+2008-08-30T06:36:03.217135Z
+12
+jacknero
+has-props
+
