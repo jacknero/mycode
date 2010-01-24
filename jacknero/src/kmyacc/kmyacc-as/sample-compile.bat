@@ -1,0 +1,2 @@
+kmyacc Calc.asy
+pause
